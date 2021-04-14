@@ -1,0 +1,22 @@
+Looking for git in: git
+Using git 2.31.1 from git
+Opening repository for path='/home/dotnet' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+> git rev-parse --git-dir
+Open repository: /home/dotnet/.config
+> git status -z -u
+> git show --textconv :polybar/config
+> git ls-files --stage -- /home/dotnet/.config/polybar/config
+> git cat-file -s 6f2de0189cb9b2cbeafc6f07ec15316fb80e5ff5
+> git check-ignore -v -z --stdin
+> git show --textconv :polybar/config
+> git ls-files --stage -- /home/dotnet/.config/polybar/config
+> git cat-file -s 6f2de0189cb9b2cbeafc6f07ec15316fb80e5ff5
+> git show --textconv :polybar/config
+> git ls-files --stage -- /home/dotnet/.config/polybar/config
+> git cat-file -s 6f2de0189cb9b2cbeafc6f07ec15316fb80e5ff5

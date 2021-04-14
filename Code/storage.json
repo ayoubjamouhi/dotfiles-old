@@ -7,6 +7,15 @@
             },
             {
                 "folderUri": "file:///home/dotnet/Dev/portfolio-gatspy"
+            },
+            {
+                "fileUri": "file:///home/dotnet/.config/i3/config"
+            },
+            {
+                "fileUri": "file:///home/dotnet/.config/polybar/config"
+            },
+            {
+                "fileUri": "file:///home/dotnet/.Xresources"
             }
         ]
     },
@@ -54,7 +63,6 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/dotnet/Dev/hello",
                                         "external": "file:///home/dotnet/Dev/hello",
                                         "path": "/home/dotnet/Dev/hello",
                                         "scheme": "file"
@@ -72,6 +80,42 @@
                                     },
                                     "enabled": true,
                                     "label": "~/Dev/portfolio-gatspy"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dotnet/.config/i3/config",
+                                        "path": "/home/dotnet/.config/i3/config",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/i3/config"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dotnet/.config/polybar/config",
+                                        "path": "/home/dotnet/.config/polybar/config",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/polybar/config"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dotnet/.Xresources",
+                                        "path": "/home/dotnet/.Xresources",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.Xresources"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -198,7 +242,8 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder"
+                        "label": "Close &&Folder",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -562,7 +607,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "Toggle &&Word Wrap"
+                        "label": "Toggle &&Word Wrap",
+                        "checked": true
                     },
                     {
                         "id": "editor.action.toggleMinimap",
@@ -1457,39 +1503,16 @@
     "themeBackground": "#002240",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/dotnet/Dev/hello",
-            "backupPath": "/home/dotnet/.config/Code/Backups/a887cd0a0718944fe3448416e45fdd3a",
+            "backupPath": "/home/dotnet/.config/Code/Backups/1618426882585",
             "uiState": {
                 "mode": 1,
                 "x": 0,
-                "y": 61,
+                "y": 38,
                 "width": 1920,
-                "height": 1019
+                "height": 1042
             }
         },
-        "openedWindows": [
-            {
-                "folder": "file:///home/dotnet/Dev/hello",
-                "backupPath": "/home/dotnet/.config/Code/Backups/a887cd0a0718944fe3448416e45fdd3a",
-                "uiState": {
-                    "mode": 1,
-                    "x": 0,
-                    "y": 61,
-                    "width": 1920,
-                    "height": 1019
-                }
-            },
-            {
-                "backupPath": "/home/dotnet/.config/Code/Backups/1618356299575",
-                "uiState": {
-                    "mode": 1,
-                    "x": 0,
-                    "y": 61,
-                    "width": 1920,
-                    "height": 1019
-                }
-            }
-        ]
+        "openedWindows": []
     },
-    "pickerWorkingDir": "/home/dotnet/Dev"
+    "pickerWorkingDir": "/home/dotnet/.config/i3"
 }

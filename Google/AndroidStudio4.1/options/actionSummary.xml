@@ -1,0 +1,18 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <data>
+      <entry key="Exit">
+        <ActionSummary times="1" last="1618424721167" />
+      </entry>
+      <entry key="QuickJavaDoc">
+        <ActionSummary times="2" last="1618424718726" />
+      </entry>
+      <entry key="WelcomeScreen.CreateNewProject">
+        <ActionSummary times="1" last="1618424332850" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
+        <ActionSummary times="2" last="1618424347865" />
+      </entry>
+    </data>
+  </component>
+</application>

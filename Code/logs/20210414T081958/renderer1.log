@@ -1,1 +1,0 @@
-[2021-04-14 08:20:01.808] [renderer1] [error] ENOENT: no such file or directory, open '/home/dotnet/.config/Code/User/globalStorage/vscodevim.vim/.registers': Error: ENOENT: no such file or directory, open '/home/dotnet/.config/Code/User/globalStorage/vscodevim.vim/.registers'
