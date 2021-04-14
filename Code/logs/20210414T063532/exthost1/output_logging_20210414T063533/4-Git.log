@@ -1,0 +1,135 @@
+Looking for git in: git
+Using git 2.31.1 from git
+> git rev-parse --git-dir
+Open repository: /home/dotnet/Dev/portfolio-gatspy
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dotnet/Dev/portfolio-gatspy/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/pages/index.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio-gatspy/src/pages/index.js
+> git cat-file -s fa24a614da133ed21a9f09a3d06ff312506413a9
+> git show --textconv :package.json
+> git ls-files --stage -- /home/dotnet/Dev/portfolio-gatspy/package.json
+> git cat-file -s 5279c2dae4f098c2ee12625069d0b0d31b85621e
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dotnet/Dev/portfolio-gatspy/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dotnet/Dev/portfolio-gatspy/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :gatsby-ssr.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio-gatspy/gatsby-ssr.js
+> git cat-file -s b17b8fc19d65986509ea9b6c250629d38e2a0c1f
+> git show --textconv :gatsby-node.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio-gatspy/gatsby-node.js
+> git cat-file -s 2f4266513eb6606ea0680779ddc146e859d269a3
+> git show --textconv :gatsby-config.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio-gatspy/gatsby-config.js
+> git cat-file -s cdb581870684ff38473bf02b3dc2bc4c52349d8b
+> git show --textconv :gatsby-browser.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio-gatspy/gatsby-browser.js
+> git cat-file -s 5fc408e26bfdd28050b1f279e26730e2deee359b
+> git show --textconv :gatsby-config.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio-gatspy/gatsby-config.js
+> git cat-file -s cdb581870684ff38473bf02b3dc2bc4c52349d8b
+> git show --textconv :postcss.config.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio-gatspy/postcss.config.js
+> git cat-file -s 33d90b953501bf5fbb13f11a3da4c33339cc9417
+> git show --textconv :gatsby-config.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio-gatspy/gatsby-config.js
+> git cat-file -s cdb581870684ff38473bf02b3dc2bc4c52349d8b
+> git show --textconv :postcss.config.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio-gatspy/postcss.config.js
+> git cat-file -s 33d90b953501bf5fbb13f11a3da4c33339cc9417
+> git show --textconv :gatsby-config.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio-gatspy/gatsby-config.js
+> git cat-file -s cdb581870684ff38473bf02b3dc2bc4c52349d8b
+> git show --textconv :postcss.config.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio-gatspy/postcss.config.js
+> git cat-file -s 33d90b953501bf5fbb13f11a3da4c33339cc9417
+> git show --textconv :package.json
+> git ls-files --stage -- /home/dotnet/Dev/portfolio-gatspy/package.json
+> git cat-file -s 5279c2dae4f098c2ee12625069d0b0d31b85621e
+> git show --textconv :src/components/Projects.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio-gatspy/src/components/Projects.js
+> git cat-file -s cd874b94cc61cc3b71b4ab64e44a74c466fc4284
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dotnet/Dev/portfolio-gatspy/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/components/layout.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio-gatspy/src/components/layout.js
+> git cat-file -s df2c5be7346e0daab04a7a0413a39368f4ce56e2
+> git show --textconv :src/components/Projects.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio-gatspy/src/components/Projects.js
+> git cat-file -s cd874b94cc61cc3b71b4ab64e44a74c466fc4284
+> git show --textconv :package.json
+> git ls-files --stage -- /home/dotnet/Dev/portfolio-gatspy/package.json
+> git cat-file -s 5279c2dae4f098c2ee12625069d0b0d31b85621e
+> git show --textconv :gatsby-node.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio-gatspy/gatsby-node.js
+> git cat-file -s 2f4266513eb6606ea0680779ddc146e859d269a3
+> git show --textconv :gatsby-ssr.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio-gatspy/gatsby-ssr.js
+> git cat-file -s b17b8fc19d65986509ea9b6c250629d38e2a0c1f
+> git show --textconv :gatsby-config.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio-gatspy/gatsby-config.js
+> git cat-file -s cdb581870684ff38473bf02b3dc2bc4c52349d8b
+> git show --textconv :gatsby-ssr.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio-gatspy/gatsby-ssr.js
+> git cat-file -s b17b8fc19d65986509ea9b6c250629d38e2a0c1f
+> git show --textconv :gatsby-browser.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio-gatspy/gatsby-browser.js
+> git cat-file -s 5fc408e26bfdd28050b1f279e26730e2deee359b
+> git show --textconv :gatsby-node.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio-gatspy/gatsby-node.js
+> git cat-file -s 2f4266513eb6606ea0680779ddc146e859d269a3
+> git show --textconv :gatsby-ssr.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio-gatspy/gatsby-ssr.js
+> git cat-file -s b17b8fc19d65986509ea9b6c250629d38e2a0c1f
+> git show --textconv :src/pages/index.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio-gatspy/src/pages/index.js
+> git cat-file -s fa24a614da133ed21a9f09a3d06ff312506413a9
+> git show --textconv :src/components/Main.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio-gatspy/src/components/Main.js
+> git cat-file -s cbe245b83906b48887e537794ee6a0f5a0c9ca2b
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dotnet/Dev/portfolio-gatspy/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :src/components/About.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio-gatspy/src/components/About.js
+> git cat-file -s e16626d30a7e658e32f81dee26ba44705db4b3c8
+> git show --textconv :src/components/Main.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio-gatspy/src/components/Main.js
+> git cat-file -s cbe245b83906b48887e537794ee6a0f5a0c9ca2b
+> git show --textconv :src/components/About.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio-gatspy/src/components/About.js
+> git cat-file -s e16626d30a7e658e32f81dee26ba44705db4b3c8
+> git show --textconv :src/components/Main.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio-gatspy/src/components/Main.js
+> git cat-file -s cbe245b83906b48887e537794ee6a0f5a0c9ca2b

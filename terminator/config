@@ -1,0 +1,19 @@
+[global_config]
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#454545"
+    background_darkness = 0.2
+    cursor_color = "#aaaaaa"
+    font = Source Code Pro Bold Italic 15
+    foreground_color = "#ffffff"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
