@@ -1,0 +1,55 @@
+Looking for git in: git
+Using git 2.31.1 from git
+> git rev-parse --git-dir
+Open repository: /home/dotnet/Dev/hello
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dotnet/Dev/hello/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :package.json
+> git ls-files --stage -- /home/dotnet/Dev/hello/package.json
+> git cat-file -s 5279c2dae4f098c2ee12625069d0b0d31b85621e
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git ls-files --stage -- /home/dotnet/Dev/hello/package.json
+> git symbolic-ref --short HEAD
+> git cat-file -s 5279c2dae4f098c2ee12625069d0b0d31b85621e
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git show --textconv :package.json
+Warning: Failed to watch ref '/home/dotnet/Dev/hello/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :src/pages/index.js
+> git ls-files --stage -- /home/dotnet/Dev/hello/src/pages/index.js
+> git cat-file -s fa24a614da133ed21a9f09a3d06ff312506413a9
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dotnet/Dev/hello/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :src/components/layout.js
+> git ls-files --stage -- /home/dotnet/Dev/hello/src/components/layout.js
+> git cat-file -s df2c5be7346e0daab04a7a0413a39368f4ce56e2
+> git show --textconv :src/components/Header.js
+> git ls-files --stage -- /home/dotnet/Dev/hello/src/components/Header.js
+> git cat-file -s 43e9761857c1b3dd9f6144fb1268f09a62a7a650
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dotnet/Dev/hello/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dotnet/Dev/hello/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template

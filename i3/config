@@ -41,7 +41,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec terminator 
+bindsym $mod+Return exec terminator
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -176,9 +176,6 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
-# start on startup
-exec --no-startup-id "killall polybar; polybar example"
-exec --no-startup-id "setxkbmap -layout en,ar -option grp:alt_shift_toggle"
 
  # Taille des fenêtres flottantes
 floating_minimum_size 75 x 50
@@ -186,28 +183,34 @@ floating_maximum_size -1 x -1
 
 # Force certaines apps à des wokspaces dédiés
 # Workspace 1 (Code)
-assign [class="jetbrains-idea|Code"]                    $ws1
+assign [class="jetbrains-idea|Code|jetbrains-studio"]                    $ws1
 # Workspace 5 (Ecran gauche, Tchat)
 #assign [class="discord|skypeforlinux|Skype Preview"]    $ws5
 # Workspace 6 (Ecran gauche, Versioning)
 #assign [class="GitKraken"]                              $ws6
 #for_window [class="GitKraken"] focus
 # Workspace 2 (Ecran droite, Navigateur)
-assign [class="firefoxdeveloperedition"]     $ws2
-for_window [class="Firefox|Firefox Developer Edition"]     $ws2
+assign [class="Firefox|firefoxdeveloperedition|Google-chrome|Navigator"]     $ws2
+for_window [class="Firefox|firefoxdeveloperedition|Google-chrome|Navigator"]     $ws2
 # Workspacw 3 (Terminator)
 assign [class="Terminator"]     $ws3
 # Workspace 8 (Ecran droite, Music)
-#assign [class="MellowPlayer"]                                $ws8
-#for_window [class="MellowPlayer"]          move to workspace $ws8
+assign [class="obs"]                                $ws8
+for_window [class="obs"]          move to workspace $ws8
 #assign [class="Spotify"]                                $ws8
 #for_window [class="Spotify"]           move to workspace $ws8
 # for_window [class="Pcmanfm|Nautilus|Thunar|Toplevel|kruler"] floating enable
+
 
 ###############################
 #            MISC             #
 ###############################
 # Applications au démarrage
+exec --no-startup-id "killall polybar; polybar -r default"
+exec --no-startup-id "firefox-developer-edition"
+exec --no-startup-id "terminator"
+exec --no-startup-id "code"
+exec --no-startup-id "setxkbmap -layout en,ara -option grp:alt_shift_toggle"
 #exec --no-startup-id nvidia-settings --load-config-only
 exec --no-startup-id picom
 #exec --no-startup-id discord

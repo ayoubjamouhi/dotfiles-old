@@ -56,5 +56,5 @@
     "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
     "php-cs-fixer.lastDownload": 1570459292207,
     "terminal.integrated.rendererType": "dom",
-    "window.zoomLevel": 2,
+    "window.zoomLevel": 1,
   }

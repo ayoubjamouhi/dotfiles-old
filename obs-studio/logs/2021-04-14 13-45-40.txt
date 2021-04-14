@@ -1,0 +1,358 @@
+01:45:40 PM.030: CPU Name: 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+01:45:40 PM.030: CPU Speed: 2400.000MHz
+01:45:40 PM.030: Physical Cores: 4, Logical Cores: 8
+01:45:40 PM.030: Physical Memory: 7638MB Total, 4195MB Free
+01:45:40 PM.030: Kernel Version: Linux 5.11.13-arch1-1
+01:45:40 PM.030: Distribution: "Arch Linux" Unknown
+01:45:40 PM.030: Session Type: x11
+01:45:40 PM.030: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.10
+01:45:40 PM.031: Portable mode: false
+01:45:40 PM.071: OBS 26.1.2-2 (linux)
+01:45:40 PM.071: ---------------------------------
+01:45:40 PM.071: ---------------------------------
+01:45:40 PM.071: audio settings reset:
+01:45:40 PM.071: 	samples per sec: 48000
+01:45:40 PM.071: 	speakers:        2
+01:45:40 PM.072: ---------------------------------
+01:45:40 PM.072: Initializing OpenGL...
+01:45:40 PM.158: Loading up OpenGL on adapter Intel Mesa Intel(R) Xe Graphics (TGL GT2)
+01:45:40 PM.158: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 21.0.2, shading language 4.60
+01:45:40 PM.175: ---------------------------------
+01:45:40 PM.175: video settings reset:
+01:45:40 PM.175: 	base resolution:   1920x1080
+01:45:40 PM.175: 	output resolution: 1280x720
+01:45:40 PM.175: 	downscale filter:  Bicubic
+01:45:40 PM.175: 	fps:               30/1
+01:45:40 PM.175: 	format:            NV12
+01:45:40 PM.175: 	YUV mode:          709/Partial
+01:45:40 PM.175: NV12 texture support not available
+01:45:40 PM.181: Audio monitoring device:
+01:45:40 PM.181: 	name: Default
+01:45:40 PM.181: 	id: default
+01:45:40 PM.181: ---------------------------------
+01:45:40 PM.182: Failed to load 'en-US' text for module: 'decklink-captions.so'
+01:45:40 PM.183: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+01:45:40 PM.184: os_dlopen(/usr//lib/obs-plugins/frontend-tools.so->/usr//lib/obs-plugins/frontend-tools.so): libluajit-5.1.so.2: cannot open shared object file: No such file or directory
+01:45:40 PM.184: 
+01:45:40 PM.184: Module '/usr//lib/obs-plugins/frontend-tools.so' not loaded
+01:45:40 PM.188: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+01:45:40 PM.188: No blackmagic support
+01:45:40 PM.195: v4l2loopback not installed, virtual camera disabled
+01:45:40 PM.199: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+01:45:40 PM.199: 
+01:45:40 PM.200: FFMPEG VAAPI supported
+01:45:40 PM.201: os_dlopen(/usr//lib/obs-plugins/obs-libfdk.so->/usr//lib/obs-plugins/obs-libfdk.so): libfdk-aac.so.2: cannot open shared object file: No such file or directory
+01:45:40 PM.201: 
+01:45:40 PM.201: Module '/usr//lib/obs-plugins/obs-libfdk.so' not loaded
+01:45:40 PM.205: VLC found, VLC video source enabled
+01:45:40 PM.205: ---------------------------------
+01:45:40 PM.205:   Loaded Modules:
+01:45:40 PM.205:     vlc-video.so
+01:45:40 PM.205:     text-freetype2.so
+01:45:40 PM.205:     rtmp-services.so
+01:45:40 PM.205:     obs-x264.so
+01:45:40 PM.205:     obs-transitions.so
+01:45:40 PM.205:     obs-outputs.so
+01:45:40 PM.205:     obs-filters.so
+01:45:40 PM.205:     obs-ffmpeg.so
+01:45:40 PM.205:     linux-v4l2.so
+01:45:40 PM.205:     linux-pulseaudio.so
+01:45:40 PM.205:     linux-jack.so
+01:45:40 PM.205:     linux-decklink.so
+01:45:40 PM.205:     linux-capture.so
+01:45:40 PM.205:     linux-alsa.so
+01:45:40 PM.205:     image-source.so
+01:45:40 PM.205:     decklink-ouput-ui.so
+01:45:40 PM.205:     decklink-captions.so
+01:45:40 PM.205: ---------------------------------
+01:45:40 PM.205: ==== Startup complete ===============================================
+01:45:40 PM.209: All scene data cleared
+01:45:40 PM.209: ------------------------------------------------
+01:45:40 PM.213: pulse-input: Server name: 'pulseaudio 14.2'
+01:45:40 PM.214: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+01:45:40 PM.214: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+01:45:40 PM.214: [Loaded global audio device]: 'Desktop Audio'
+01:45:40 PM.214: pulse-input: Server name: 'pulseaudio 14.2'
+01:45:40 PM.214: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+01:45:40 PM.214: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+01:45:40 PM.214: [Loaded global audio device]: 'Mic/Aux'
+01:45:40 PM.215: v4l2-input: Start capture from /dev/video0
+01:45:40 PM.324: v4l2-input: Input: 0
+01:45:40 PM.327: v4l2-input: Resolution: 640x480
+01:45:40 PM.327: v4l2-input: Pixelformat: YUYV
+01:45:40 PM.327: v4l2-input: Linesize: 1280 Bytes
+01:45:40 PM.327: v4l2-input: Framerate: 30.00 fps
+01:45:40 PM.328: xshm-input: Geometry 1920x1080 @ 0,0
+01:45:40 PM.350: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:45:40 PM.350: 	title: Channel content - YouTube Studio — Firefox Developer Edition
+01:45:40 PM.350: 	class: Navigator
+01:45:40 PM.350: 	Bit depth: 24
+01:45:40 PM.350: 	Found proper GLXFBConfig (in 224): yes
+01:45:40 PM.350: 
+01:45:40 PM.350: Switched to scene 'Scene'
+01:45:40 PM.350: ------------------------------------------------
+01:45:40 PM.350: Loaded scenes:
+01:45:40 PM.350: - scene 'Scene':
+01:45:40 PM.351:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+01:45:40 PM.351:     - source: 'Screen Capture (XSHM)' (xshm_input)
+01:45:40 PM.351:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+01:45:40 PM.351: ------------------------------------------------
+01:45:40 PM.767: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+01:45:40 PM.767: 
+01:47:27 PM.515: ---------------------------------
+01:47:27 PM.515: video settings reset:
+01:47:27 PM.515: 	base resolution:   1920x1080
+01:47:27 PM.515: 	output resolution: 1920x1080
+01:47:27 PM.515: 	downscale filter:  Bicubic
+01:47:27 PM.515: 	fps:               24000/1001
+01:47:27 PM.515: 	format:            NV12
+01:47:27 PM.515: 	YUV mode:          709/Partial
+01:47:27 PM.515: NV12 texture support not available
+01:47:27 PM.525: Settings changed (outputs, video)
+01:47:27 PM.526: ------------------------------------------------
+01:47:30 PM.000: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:47:30 PM.000: 	title: Channel content - YouTube Studio — Firefox Developer Edition
+01:47:30 PM.000: 	class: Navigator
+01:47:30 PM.000: 	Bit depth: 24
+01:47:30 PM.000: 	Found proper GLXFBConfig (in 224): yes
+01:47:30 PM.000: 
+01:47:39 PM.828: ---------------------------------
+01:47:39 PM.829: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+01:47:39 PM.829: [x264 encoder: 'simple_h264_recording'] profile: high
+01:47:39 PM.829: [x264 encoder: 'simple_h264_recording'] settings:
+01:47:39 PM.829: 	rate_control: CRF
+01:47:39 PM.829: 	bitrate:      0
+01:47:39 PM.829: 	buffer size:  0
+01:47:39 PM.829: 	crf:          16
+01:47:39 PM.829: 	fps_num:      24000
+01:47:39 PM.829: 	fps_den:      1001
+01:47:39 PM.829: 	width:        1920
+01:47:39 PM.829: 	height:       1080
+01:47:39 PM.829: 	keyint:       250
+01:47:39 PM.829: 
+01:47:39 PM.842: ---------------------------------
+01:47:39 PM.842: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 2, channel_layout: 3
+01:47:39 PM.842: 
+01:47:39 PM.845: ==== Recording Start ===============================================
+01:47:39 PM.845: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/dotnet/ObsStudio/2021-04-14 13-47-39.mp4'...
+01:47:42 PM.283: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:47:42 PM.283: 	title: مشهد وترتيل مهيب ومناجاة باكية للشيخ ناصر القطامي | الليلة الأولى رمضان 1442 - YouTube — Firefox Developer Edition
+01:47:42 PM.283: 	class: Navigator
+01:47:42 PM.283: 	Bit depth: 24
+01:47:42 PM.283: 	Found proper GLXFBConfig (in 224): yes
+01:47:42 PM.283: 
+01:48:04 PM.786: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:48:04 PM.786: 	title: مشهد وترتيل مهيب ومناجاة باكية للشيخ ناصر القطامي | الليلة الأولى رمضان 1442 - YouTube — Firefox Developer Edition
+01:48:04 PM.786: 	class: Navigator
+01:48:04 PM.786: 	Bit depth: 24
+01:48:04 PM.786: 	Found proper GLXFBConfig (in 224): yes
+01:48:04 PM.786: 
+01:48:38 PM.656: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/dotnet/ObsStudio/2021-04-14 13-47-39.mp4' stopped
+01:48:38 PM.656: Output 'simple_file_output': stopping
+01:48:38 PM.656: Output 'simple_file_output': Total frames output: 1382
+01:48:38 PM.656: Output 'simple_file_output': Total drawn frames: 1410
+01:48:38 PM.656: ==== Recording Stop ================================================
+01:50:12 PM.404: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:50:12 PM.404: 	title: Codeforces — Firefox Developer Edition
+01:50:12 PM.404: 	class: Navigator
+01:50:12 PM.404: 	Bit depth: 24
+01:50:12 PM.404: 	Found proper GLXFBConfig (in 224): yes
+01:50:12 PM.404: 
+01:54:26 PM.570: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:54:26 PM.570: 	title: Channel content - YouTube Studio — Firefox Developer Edition
+01:54:26 PM.570: 	class: Navigator
+01:54:26 PM.570: 	Bit depth: 24
+01:54:26 PM.570: 	Found proper GLXFBConfig (in 224): yes
+01:54:26 PM.570: 
+01:55:04 PM.342: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:55:04 PM.342: 	title: Channel content - YouTube Studio — Firefox Developer Edition
+01:55:04 PM.342: 	class: Navigator
+01:55:04 PM.342: 	Bit depth: 24
+01:55:04 PM.342: 	Found proper GLXFBConfig (in 224): yes
+01:55:04 PM.342: 
+01:56:37 PM.594: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:56:37 PM.594: 	title: Neovim - ArchWiki — Firefox Developer Edition
+01:56:37 PM.594: 	class: Navigator
+01:56:37 PM.594: 	Bit depth: 24
+01:56:37 PM.594: 	Found proper GLXFBConfig (in 224): yes
+01:56:37 PM.594: 
+01:57:53 PM.590: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:57:53 PM.590: 	title: 2021 04 14 13 47 39 test - YouTube — Firefox Developer Edition
+01:57:53 PM.590: 	class: Navigator
+01:57:53 PM.590: 	Bit depth: 24
+01:57:53 PM.590: 	Found proper GLXFBConfig (in 224): yes
+01:57:53 PM.590: 
+01:58:06 PM.263: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:58:06 PM.263: 	title: 2021 04 14 13 47 39 test - YouTube — Firefox Developer Edition
+01:58:06 PM.263: 	class: Navigator
+01:58:06 PM.263: 	Bit depth: 24
+01:58:06 PM.263: 	Found proper GLXFBConfig (in 224): yes
+01:58:06 PM.263: 
+01:58:54 PM.878: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:58:54 PM.878: 	title: 2021 04 14 13 47 39 test - YouTube — Firefox Developer Edition
+01:58:54 PM.878: 	class: Navigator
+01:58:54 PM.878: 	Bit depth: 24
+01:58:54 PM.878: 	Found proper GLXFBConfig (in 224): yes
+01:58:54 PM.878: 
+02:07:33 PM.819: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:07:33 PM.819: 	title: Neovim - ArchWiki — Firefox Developer Edition
+02:07:33 PM.819: 	class: Navigator
+02:07:33 PM.819: 	Bit depth: 24
+02:07:33 PM.819: 	Found proper GLXFBConfig (in 224): yes
+02:07:33 PM.819: 
+02:08:06 PM.461: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:08:06 PM.461: 	title: Arch Linux - neovim 0.4.4-1 (x86_64) — Firefox Developer Edition
+02:08:06 PM.461: 	class: Navigator
+02:08:06 PM.461: 	Bit depth: 24
+02:08:06 PM.461: 	Found proper GLXFBConfig (in 224): yes
+02:08:06 PM.461: 
+02:09:30 PM.516: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:09:30 PM.516: 	title: Firefox Developer Edition
+02:09:30 PM.516: 	class: Navigator
+02:09:30 PM.516: 	Bit depth: 24
+02:09:30 PM.516: 	Found proper GLXFBConfig (in 224): yes
+02:09:30 PM.516: 
+02:09:34 PM.635: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:09:34 PM.635: 	title: Firefox Developer Edition
+02:09:34 PM.635: 	class: Navigator
+02:09:34 PM.635: 	Bit depth: 24
+02:09:34 PM.635: 	Found proper GLXFBConfig (in 224): yes
+02:09:34 PM.635: 
+02:10:26 PM.974: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:10:26 PM.974: 	title: Neovim - ArchWiki — Firefox Developer Edition
+02:10:26 PM.974: 	class: Navigator
+02:10:26 PM.974: 	Bit depth: 24
+02:10:26 PM.974: 	Found proper GLXFBConfig (in 224): yes
+02:10:26 PM.974: 
+02:12:07 PM.519: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:12:07 PM.519: 	title: Firefox Developer Edition
+02:12:07 PM.519: 	class: Navigator
+02:12:07 PM.519: 	Bit depth: 24
+02:12:07 PM.519: 	Found proper GLXFBConfig (in 224): yes
+02:12:07 PM.519: 
+02:13:41 PM.374: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:13:41 PM.374: 	title: How to Configure Vim like VSCode - YouTube — Firefox Developer Edition
+02:13:41 PM.374: 	class: Navigator
+02:13:41 PM.374: 	Bit depth: 24
+02:13:41 PM.374: 	Found proper GLXFBConfig (in 224): yes
+02:13:41 PM.374: 
+02:14:05 PM.629: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:14:05 PM.629: 	title: How to Configure Vim like VSCode - YouTube — Firefox Developer Edition
+02:14:05 PM.629: 	class: Navigator
+02:14:05 PM.629: 	Bit depth: 24
+02:14:05 PM.629: 	Found proper GLXFBConfig (in 224): yes
+02:14:05 PM.629: 
+02:16:16 PM.317: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:16:16 PM.317: 	title: How to Configure Vim like VSCode - YouTube — Firefox Developer Edition
+02:16:16 PM.317: 	class: Navigator
+02:16:16 PM.317: 	Bit depth: 24
+02:16:16 PM.317: 	Found proper GLXFBConfig (in 224): yes
+02:16:16 PM.317: 
+02:16:29 PM.350: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:16:29 PM.350: 	title: How to Configure Vim like VSCode - YouTube — Firefox Developer Edition
+02:16:29 PM.350: 	class: Navigator
+02:16:29 PM.350: 	Bit depth: 24
+02:16:29 PM.350: 	Found proper GLXFBConfig (in 224): yes
+02:16:29 PM.350: 
+02:16:30 PM.604: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:16:30 PM.604: 	title: How to Configure Vim like VSCode - YouTube — Firefox Developer Edition
+02:16:30 PM.604: 	class: Navigator
+02:16:30 PM.604: 	Bit depth: 24
+02:16:30 PM.604: 	Found proper GLXFBConfig (in 224): yes
+02:16:30 PM.604: 
+02:18:27 PM.194: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:18:27 PM.194: 	title: junegunn/vim-plug: Minimalist Vim Plugin Manager — Firefox Developer Edition
+02:18:27 PM.194: 	class: Navigator
+02:18:27 PM.194: 	Bit depth: 24
+02:18:27 PM.194: 	Found proper GLXFBConfig (in 224): yes
+02:18:27 PM.194: 
+02:21:34 PM.399: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+02:21:34 PM.399: 	title: ﴿ولا تهنوا ولا تحزنوا وأنتم الأعلون﴾ تلاوة خاشعة للشيخ ناصر القطامي | ليلة (8) كاملة رمضان 1434 - YouTube — Firefox Developer Edition
+02:21:34 PM.399: 	class: Navigator
+02:21:34 PM.399: 	Bit depth: 24
+02:21:34 PM.399: 	Found proper GLXFBConfig (in 224): yes
+02:21:34 PM.399: 
+03:52:29 PM.402: ==== Shutting down ==================================================
+03:52:29 PM.418: v4l2-input: Stopped capture after 61834 frames
+03:52:29 PM.440: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+03:52:29 PM.440: pulse-input: Got 1110783 packets with 365239682 frames
+03:52:29 PM.440: pulse-input: Stopped recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+03:52:29 PM.440: pulse-input: Got 756693 packets with 335566136 frames
+03:52:29 PM.440: All scene data cleared
+03:52:29 PM.440: ------------------------------------------------
+03:52:29 PM.536: Freeing OBS context data
+03:52:29 PM.553: == Profiler Results =============================
+03:52:29 PM.553: run_program_init: 429.752 ms
+03:52:29 PM.553:  ┣OBSApp::AppInit: 1.595 ms
+03:52:29 PM.553:  ┃ ┗OBSApp::InitLocale: 0.67 ms
+03:52:29 PM.553:  ┗OBSApp::OBSInit: 403.174 ms
+03:52:29 PM.553:    ┣obs_startup: 16.345 ms
+03:52:29 PM.553:    ┗OBSBasic::OBSInit: 347.066 ms
+03:52:29 PM.553:      ┣OBSBasic::InitBasicConfig: 0.074 ms
+03:52:29 PM.553:      ┣OBSBasic::ResetAudio: 0.138 ms
+03:52:29 PM.553:      ┣OBSBasic::ResetVideo: 109.896 ms
+03:52:29 PM.553:      ┣OBSBasic::InitOBSCallbacks: 0.003 ms
+03:52:29 PM.553:      ┣OBSBasic::InitHotkeys: 0.04 ms
+03:52:29 PM.553:      ┣obs_load_all_modules: 24.119 ms
+03:52:29 PM.553:      ┃ ┣obs_init_module(decklink-captions.so): 0.026 ms
+03:52:29 PM.553:      ┃ ┣obs_init_module(decklink-ouput-ui.so): 0.437 ms
+03:52:29 PM.553:      ┃ ┣obs_init_module(image-source.so): 0.004 ms
+03:52:29 PM.553:      ┃ ┣obs_init_module(linux-alsa.so): 0.001 ms
+03:52:29 PM.553:      ┃ ┣obs_init_module(linux-capture.so): 2.319 ms
+03:52:29 PM.553:      ┃ ┣obs_init_module(linux-decklink.so): 0.075 ms
+03:52:29 PM.553:      ┃ ┣obs_init_module(linux-jack.so): 0.001 ms
+03:52:29 PM.553:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.001 ms
+03:52:29 PM.553:      ┃ ┣obs_init_module(linux-v4l2.so): 3.599 ms
+03:52:29 PM.553:      ┃ ┣obs_init_module(obs-ffmpeg.so): 0.28 ms
+03:52:29 PM.553:      ┃ ┃ ┗nvenc_check: 0.188 ms
+03:52:29 PM.553:      ┃ ┣obs_init_module(obs-filters.so): 0.013 ms
+03:52:29 PM.553:      ┃ ┣obs_init_module(obs-outputs.so): 0.001 ms
+03:52:29 PM.553:      ┃ ┣obs_init_module(obs-transitions.so): 0.004 ms
+03:52:29 PM.553:      ┃ ┣obs_init_module(obs-x264.so): 0 ms
+03:52:29 PM.553:      ┃ ┣obs_init_module(rtmp-services.so): 0.551 ms
+03:52:29 PM.553:      ┃ ┣obs_init_module(text-freetype2.so): 0.005 ms
+03:52:29 PM.553:      ┃ ┗obs_init_module(vlc-video.so): 0.398 ms
+03:52:29 PM.553:      ┣OBSBasic::ResetOutputs: 0.257 ms
+03:52:29 PM.553:      ┣OBSBasic::CreateHotkeys: 0.033 ms
+03:52:29 PM.553:      ┣OBSBasic::InitService: 1.232 ms
+03:52:29 PM.553:      ┣OBSBasic::InitPrimitives: 0.173 ms
+03:52:29 PM.553:      ┗OBSBasic::Load: 148.146 ms
+03:52:29 PM.553: obs_hotkey_thread(25 ms): min=0.043 ms, median=0.354 ms, max=268.637 ms, 99th percentile=3.058 ms, 99.9973% below 25 ms
+03:52:29 PM.553: audio_thread(Audio): min=0 ms, median=0.075 ms, max=3.771 ms, 99th percentile=0.29 ms
+03:52:29 PM.553:  ┗receive_audio: min=0.002 ms, median=0.564 ms, max=3.707 ms, 99th percentile=1.371 ms, 0.00767009 calls per parent call
+03:52:29 PM.553:    ┣buffer_audio: min=0 ms, median=0.001 ms, max=0.076 ms, 99th percentile=0.007 ms
+03:52:29 PM.553:    ┗do_encode: min=0.039 ms, median=0.559 ms, max=3.702 ms, 99th percentile=1.361 ms
+03:52:29 PM.553:      ┗encode(simple_aac_recording): min=0.034 ms, median=0.547 ms, max=3.692 ms, 99th percentile=1.325 ms
+03:52:29 PM.553: obs_graphics_thread(33.3333 ms): min=0.067 ms, median=4.08 ms, max=103.998 ms, 99th percentile=7.394 ms, 99.9378% below 33.333 ms
+03:52:29 PM.553:  ┣tick_sources: min=0 ms, median=3.326 ms, max=102.809 ms, 99th percentile=5.899 ms
+03:52:29 PM.553:  ┣output_frame: min=0.027 ms, median=0.317 ms, max=32.6 ms, 99th percentile=0.694 ms
+03:52:29 PM.553:  ┃ ┗gs_context(video->graphics): min=0.027 ms, median=0.317 ms, max=32.6 ms, 99th percentile=0.694 ms
+03:52:29 PM.553:  ┃   ┣render_video: min=0.024 ms, median=0.255 ms, max=32.458 ms, 99th percentile=0.561 ms
+03:52:29 PM.553:  ┃   ┃ ┗render_main_texture: min=0.019 ms, median=0.249 ms, max=32.447 ms, 99th percentile=0.558 ms
+03:52:29 PM.553:  ┃   ┗gs_flush: min=0.001 ms, median=0.043 ms, max=0.638 ms, 99th percentile=0.108 ms
+03:52:29 PM.553:  ┗render_displays: min=0.002 ms, median=0.299 ms, max=9.059 ms, 99th percentile=2.642 ms
+03:52:29 PM.553: OBSBasic::ResetOutputs: 0.147 ms
+03:52:29 PM.553: OBSBasic::ResetVideo: 61.131 ms
+03:52:29 PM.553: obs_graphics_thread(41.7083 ms): min=0.054 ms, median=4.057 ms, max=264.355 ms, 99th percentile=12.567 ms, 99.9911% below 41.708 ms
+03:52:29 PM.553:  ┣tick_sources: min=0 ms, median=3.643 ms, max=264.016 ms, 99th percentile=9.641 ms
+03:52:29 PM.553:  ┣output_frame: min=0.027 ms, median=0.314 ms, max=13.19 ms, 99th percentile=0.813 ms
+03:52:29 PM.553:  ┃ ┣gs_context(video->graphics): min=0.027 ms, median=0.313 ms, max=12.763 ms, 99th percentile=0.812 ms
+03:52:29 PM.553:  ┃ ┃ ┣render_video: min=0.024 ms, median=0.234 ms, max=12.667 ms, 99th percentile=0.676 ms
+03:52:29 PM.553:  ┃ ┃ ┃ ┣render_main_texture: min=0.019 ms, median=0.227 ms, max=1.232 ms, 99th percentile=0.557 ms
+03:52:29 PM.553:  ┃ ┃ ┃ ┣render_convert_texture: min=0.019 ms, median=0.045 ms, max=1.683 ms, 99th percentile=0.109 ms, 0.00783952 calls per parent call
+03:52:29 PM.553:  ┃ ┃ ┃ ┗stage_output_texture: min=6.759 ms, median=7.605 ms, max=11.969 ms, 99th percentile=10.67 ms, 0.00783952 calls per parent call
+03:52:29 PM.553:  ┃ ┃ ┣gs_flush: min=0.001 ms, median=0.057 ms, max=1.023 ms, 99th percentile=0.118 ms
+03:52:29 PM.553:  ┃ ┃ ┗download_frame: min=0 ms, median=0.009 ms, max=0.046 ms, 99th percentile=0.025 ms, 0.00783952 calls per parent call
+03:52:29 PM.553:  ┃ ┗output_video_data: min=0.264 ms, median=0.514 ms, max=2.973 ms, 99th percentile=0.803 ms, 0.00783396 calls per parent call
+03:52:29 PM.553:  ┗render_displays: min=0.002 ms, median=0.006 ms, max=18.425 ms, 99th percentile=0.126 ms
+03:52:29 PM.553: video_thread(video): min=1.637 ms, median=2.834 ms, max=8.864 ms, 99th percentile=4.447 ms
+03:52:29 PM.553:  ┗receive_video: min=1.636 ms, median=2.832 ms, max=8.862 ms, 99th percentile=4.445 ms
+03:52:29 PM.553:    ┗do_encode: min=1.634 ms, median=2.829 ms, max=8.859 ms, 99th percentile=4.443 ms
+03:52:29 PM.554:      ┗encode(simple_h264_recording): min=1.628 ms, median=2.798 ms, max=5.839 ms, 99th percentile=4.398 ms
+03:52:29 PM.554: =================================================
+03:52:29 PM.554: == Profiler Time Between Calls ==================
+03:52:29 PM.554: obs_hotkey_thread(25 ms): min=25.082 ms, median=25.456 ms, max=293.711 ms, 56.0597% within ±2% of 25 ms (0% lower, 43.9403% higher)
+03:52:29 PM.554: obs_graphics_thread(33.3333 ms): min=20.2 ms, median=33.333 ms, max=104.002 ms, 99.9067% within ±2% of 33.333 ms (0.0310849% lower, 0.0621697% higher)
+03:52:29 PM.554: obs_graphics_thread(41.7083 ms): min=17.191 ms, median=41.708 ms, max=264.362 ms, 99.9689% within ±2% of 41.708 ms (0.0166799% lower, 0.0144559% higher)
+03:52:29 PM.554: =================================================
+03:52:29 PM.635: Number of memory leaks: 0
