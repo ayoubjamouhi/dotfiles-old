@@ -46,3 +46,5 @@
 [2021-04-15 06:12:15.881] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/client/out/extension
 [2021-04-15 06:12:15.887] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":false,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"onStartupFinished"}
 [2021-04-15 06:12:15.887] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/esbenp.prettier-vscode-6.3.2/dist/extension
+[2021-04-15 12:11:53.433] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-04-15 12:11:54.447] [exthost] [info] exiting with code 0

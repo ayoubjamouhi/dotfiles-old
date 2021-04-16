@@ -223,6 +223,7 @@ exec --no-startup-id picom
 
 # Désactive capslock
 exec --no-startup-id setxkbmap -option caps:none
+exec --no-startup-id setxkbmap -option fn:none
 
 # I3 Gaps
 for_window [class="^.*"] border pixel 2
