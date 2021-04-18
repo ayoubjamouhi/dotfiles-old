@@ -1,0 +1,28 @@
+.inb-shb-el {
+  cursor: pointer;
+}
+
+a.inb-photo-el {
+  position: absolute;
+  color: white !important;
+  font-size: 18px;
+  padding: 6px;
+  margin: 5px;
+  border-radius: 4px;
+  opacity: 0;
+  right: 0;
+  top: 0;
+  background: #ed4956;
+}
+
+a.inb-photo-el + a.inb-photo-el {
+  right: 36px;
+}
+
+.inb-photo-ctn:hover a.inb-photo-el {
+  opacity: 0.6;
+}
+
+.inb-photo-ctn:hover a.inb-photo-el:hover {
+  opacity: 0.8;
+}

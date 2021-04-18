@@ -1,6 +1,0 @@
-[Error  - 17:09:46.6] Getting token failed: Error: The name org.freedesktop.secrets was not provided by any .service files
-[Info  - 17:18:20.788] Logging in...
-[Info  - 17:18:27.534] Treating input as token
-[Info  - 17:18:27.535] Getting user info...
-[Error  - 17:18:27.846] Getting account info failed: Unauthorized
-[Error  - 17:18:27.847] Error: Unauthorized

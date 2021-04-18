@@ -1,0 +1,7 @@
+2021/04/18-03:52:51.950 2422 Reusing MANIFEST /home/dotnet/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/18-03:52:51.950 2422 Recovering log #3
+2021/04/18-03:52:51.952 2422 Reusing old log /home/dotnet/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2021/04/18-03:53:30.504 268d Level-0 table #5: started
+2021/04/18-03:53:30.515 268d Level-0 table #5: 77495 bytes OK
+2021/04/18-03:53:30.520 268d Delete type=0 #3
+2021/04/18-03:53:30.520 268d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

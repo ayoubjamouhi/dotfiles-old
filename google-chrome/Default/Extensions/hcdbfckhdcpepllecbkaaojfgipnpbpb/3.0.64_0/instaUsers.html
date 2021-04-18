@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Insta Users</title>
+</head>
+
+<body>
+  <div id="fl"
+    style="text-align: center; padding: 5px; font-weight: bold; color: red; border:5px solid blue; display: none;">
+  </div>
+  <div id="warning" style="padding: 5px; font-weight: bold; color: red;">
+    Do NOT close THIS tab or put it in the background (it slows down the process)
+  </div>
+  <div id="status" style="padding: 5px; font-weight: bold;"></div>
+  <div id="tempUiElements" style="padding: 5px; padding-bottom: 0px; font-weight: bold;">
+    <div id="timer" style="padding-bottom: 5px;">0h:00m:00s</div>
+    <div id="followed_by_title" style="display: none;">Followed By</div>
+    <div id="followed_by" role="progressbar" style="display: none;">
+      <div class="progress__bar">
+        <span class="progress__label"></span>
+      </div>
+    </div>
+    <div id="follows_title" style="display: none;">Follows</div>
+    <div id="follows" role="progressbar" style="display: none;">
+      <div class="progress__bar">
+        <span class="progress__label"></span>
+      </div>
+    </div>
+    <div id="detInfoCheckbox" style="display: none;">
+      <input type="checkbox" id="startDetailedInfoCollection" checked="checked">
+      <label for="startDetailedInfoCollection">Start detailed info collection when a short list is generated</label>
+
+      <p> Interval between the requests to get the relationship info, ms:
+        <input type="number" title="Min allowed value is 1000ms/1.0sec" min="1000" step="100" max="30000"
+          id="relDelay" />
+      </p>
+
+    </div>
+  </div>
+  <div id="details" style="display:none; padding: 5px; font-weight: bold;">
+    <div id="detailedinfo_title"></div>
+    <div id="detailedinfo" role="progressbar">
+      <div class="progress__bar">
+        <span class="progress__label"></span>
+      </div>
+    </div>
+    <button id="cancelDetInfo">Cancel getting the detailed info</button>
+    <p> Interval between the requests to get the user detailed info, ms:
+      <input type="number" title="Min allowed value is 500ms/0.5sec" min="500" step="100" max="20000"
+        id="detailedInfoDelay" />
+    </p>
+  </div>
+  <div id="pause" style="padding: 5px; padding-top: 0px; font-weight: bold;">
+    <button data-state="run" id="pauseDetInfo">Pause the process</button>
+    <span id="detailedInfoLabel">&nbsp;</span>
+  </div>
+  <div id="errorDiv" style="color:red;display:none;padding: 15px;font-weight: bold;border: 1px solid black;">
+    <p>
+      The extension is sending the requests for the detailed profile in the anonymous mode.
+      Therefore Instagram does not ban your Instagram account, however it puts the ban on IP address.
+      Download and use <a target="_blank" href="https://windscribe.com/?affid=nz7mhq9f">Windscribe VPN</a> to switch
+      location for about every 300-500 detailed profiles (We are working on improving this process).
+    </p>
+  </div>
+  <div id="exportDiv" style="display:none; padding: 5px;">
+    <input type="radio" id="outXLSX" name="outType" value="xlsx"><label for="outXLSX">XLSX</label>
+    <input type="radio" id="outCSV" name="outType" value="csv"><label for="outCSV">CSV</label>
+    <button id="export_XLSX">Export to Excel</button>
+    <h2>Export Tips</h2>
+    <ul>
+      <li>Prefer CSV format: export to CSV works faster and consumes less memory; therefore there are more chances to
+        complete the export successfully.</li>
+      <li>Select only the columns that you need; the fewer columns you check, there are more chances to complete the
+        export successfully.</li>
+      <li>If you check all columns, depending on your workstation and operating system, you will be able to complete the
+        export successfully only if you have less than 100k users collected.</li>
+    </ul>
+    <h3>Columns to be exported; columns with&nbsp;<font color='red'>*</font>&nbsp;will be fully populated when detailed
+      info collection is completed.</h1>
+      <div id="headersDiv">
+
+      </div>
+  </div>
+
+  <table id="jqGrid"></table>
+  <div id="jqGridPager"></div>
+<script type="text/javascript" src="instaUsers.bundle.js"></script></body>
+
+</html>

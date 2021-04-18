@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>AppstoreSpy for Play Store</title>
+    <link rel="stylesheet" href="https://appstorespy.com/s/ext/bootstrap.min.css">
+  <style>
+      body {
+  padding-top: 3.5rem;
+}
+      #welcome, #login,#login2,#upgrade{
+          display: none;
+      }
+      .jumbotron{
+          background-color: #eee;
+          padding: 2rem 1rem 0.2rem 1rem;
+          margin-bottom: 2rem;
+      }
+      @media (min-width: 580px){
+      img {
+            max-width:100%;
+            height:auto;
+        }
+      }
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light border-bottom shadow-sm">
+      <h5><a href="https://appstorespy.com/" target="_blank">appstore<b>spy</b></a></h5>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto"></ul>
+          <div>
+              <span id="loading">Loading... Please wait</span>
+              <span id="welcome">
+                Welcome back, <span id="username">%username%</span>. Current plan: <span id="plan">%unknown%</span>
+                <a href="https://appstorespy.com/pricing?utm_source=google&utm_medium=extension&utm_campaign=popup" target="_blank" id="upgrade">Upgrade to see more data</a>
+                <button class="btn btn-outline-success my-2 my-sm-0" id="logout">Logout</button>
+            </span>
+          </div>
+          <a href="https://appstorespy.com/signin?utm_source=google&utm_medium=extension&utm_campaign=popup" class="btn btn-outline-success my-2 my-sm-0" id="login2">Login</a>
+          &nbsp;
+          <button class="btn btn-outline-success my-2 my-sm-0" id="login">Login 2 (popup window will be opened)</button>
+      </div>
+    </nav>
+
+    <main role="main">
+      <div class="jumbotron">
+        <div class="container text-right">
+          <h2 class="text-center">Compare Free vs Premium plans</h2>
+          <p class="text-right"><a href="https://appstorespy.com/s/en/comparison-bar-help.gif" target="_blank"><img src="https://appstorespy.com/s/en/comparison-bar-help.gif" alt="Appstorespy card help"></a></p>
+          <p class="text-right"><a class="btn btn-primary btn-lg" href="https://appstorespy.com/pricing?utm_source=google&utm_medium=extension&utm_campaign=popup" target="_blank" role="button">Subscribe to Premium &raquo;</a></p>
+        </div>
+      </div>
+        <div class="container">
+            <h2>More?</h2>
+            <ul>
+                <li><a href="https://appstorespy.com/watchlist?utm_source=google&utm_medium=extension&utm_campaign=popup" target="_blank" class="display-4">Watch for apps with lists</a></li>
+                <li><a href="https://appstorespy.com/browse-apps?utm_source=google&utm_medium=extension&utm_campaign=popup" target="_blank" class="display-4">Search through 9M+ apps</a></li>
+            </ul>
+        </div>
+    </main>
+<script>
+    chrome.runtime.sendMessage('me', function (response) {
+        document.getElementById("loading").style.display='none'
+        if (response.user.plan === 'Guest') {
+            document.getElementById("login").style.display='block';
+            document.getElementById("login2").style.display='block';
+        }
+        else {
+            document.getElementById("welcome").style.display='block'
+            document.getElementById("username").innerText = response.user.username;
+            document.getElementById("plan").innerText = response.user.plan
+            if (response.user.plan !== 'Pro') {
+                document.getElementById("upgrade").style.display='block'
+            }
+        }
+    });
+	document.getElementById("logout").addEventListener("click", function () {
+	    chrome.runtime.sendMessage('logout', function (result) {
+	        window.close()
+            })
+		});
+
+	el = document.getElementById("login");
+		el.addEventListener("click", function () {
+            chrome.runtime.sendMessage('auth', function (result) {
+                console.log('auth result:'+result)
+        //        checkIsSigned();
+                alert("Please Reload This Page to activate new features")
+            })
+		});
+/*
+    chrome.runtime.sendMessage(msg)
+      .then(response => { //Receive response from the background-script
+          console.log(response.data);
+      });
+*/
+</script>
+</body>
+</html>

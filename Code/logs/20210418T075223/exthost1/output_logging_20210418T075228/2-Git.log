@@ -1,0 +1,38 @@
+Looking for git in: git
+Using git 2.31.1 from git
+> git rev-parse --git-dir
+Open repository: /home/dotnet/Dev/ReactNative/AwesomeTSProject
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :package.json
+> git ls-files --stage -- /home/dotnet/Dev/ReactNative/AwesomeTSProject/package.json
+> git cat-file -s 3a1e23521e68ca76a566ebd1723cf684ca975068
+> git check-ignore -v -z --stdin
+> git show --textconv :.watchmanconfig
+> git ls-files --stage -- /home/dotnet/Dev/ReactNative/AwesomeTSProject/.watchmanconfig
+> git cat-file -s 9e26dfeeb6e641a33dae4961196235bdb965b21b
+> git show --textconv :.editorconfig
+> git ls-files --stage -- /home/dotnet/Dev/ReactNative/AwesomeTSProject/.editorconfig
+> git cat-file -s 7c286132fe9a986352e329ab1a1baa8e3bf4dd8c
+> git show --textconv :.buckconfig
+> git ls-files --stage -- /home/dotnet/Dev/ReactNative/AwesomeTSProject/.buckconfig
+> git cat-file -s 934256cb29d4a3616c740861c6af35ff6a165917
+> git show --textconv :.gitignore
+> git ls-files --stage -- /home/dotnet/Dev/ReactNative/AwesomeTSProject/.gitignore
+> git cat-file -s ad572e632bc8ced7b8e2c8abdfaf16bd8a9ff74d
+> git show --textconv :.buckconfig
+> git ls-files --stage -- /home/dotnet/Dev/ReactNative/AwesomeTSProject/.buckconfig
+> git cat-file -s 934256cb29d4a3616c740861c6af35ff6a165917
+> git show --textconv :.editorconfig
+> git ls-files --stage -- /home/dotnet/Dev/ReactNative/AwesomeTSProject/.editorconfig
+> git cat-file -s 7c286132fe9a986352e329ab1a1baa8e3bf4dd8c
+> git show --textconv :package.json
+> git ls-files --stage -- /home/dotnet/Dev/ReactNative/AwesomeTSProject/package.json
+> git cat-file -s 3a1e23521e68ca76a566ebd1723cf684ca975068
+> git show --textconv :android/app/src/main/AndroidManifest.xml
+> git ls-files --stage -- /home/dotnet/Dev/ReactNative/AwesomeTSProject/android/app/src/main/AndroidManifest.xml
+> git cat-file -s 454a77a0fb91671651fa50cbbc8a42b0017e966b

@@ -1,0 +1,28 @@
+["INFO" - 7:53:56 AM] Extension Name: esbenp.prettier-vscode.
+["INFO" - 7:53:56 AM] Extension Version: 6.3.2.
+["INFO" - 7:53:56 AM] Attempted to load Prettier module from /home/dotnet/Dev/portfolio-gatspy
+["ERROR" - 7:53:56 AM] Failed to load module. If you have prettier or plugins referenced in package.json, ensure you have run `npm install`
+["ERROR" - 7:53:56 AM] Cannot find module 'prettier' from '/home/dotnet/Dev/portfolio-gatspy'
+Error: Cannot find module 'prettier' from '/home/dotnet/Dev/portfolio-gatspy'
+    at Function.e.exports [as sync] (/home/dotnet/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/resolve/lib/sync.js:103:9)
+    at t.ModuleResolver.findPkg (/home/dotnet/.vscode/extensions/esbenp.prettier-vscode-6.3.2/src/ModuleResolver.ts:417:5)
+    at t.ModuleResolver.<anonymous> (/home/dotnet/.vscode/extensions/esbenp.prettier-vscode-6.3.2/src/ModuleResolver.ts:158:38)
+    at Generator.next (<anonymous>)
+    at /home/dotnet/.vscode/extensions/esbenp.prettier-vscode-6.3.2/dist/extension.js:1:2893
+    at new Promise (<anonymous>)
+    at n (/home/dotnet/.vscode/extensions/esbenp.prettier-vscode-6.3.2/dist/extension.js:1:2638)
+    at t.ModuleResolver.registeredWorkspaces [as getPrettierInstance] (/home/dotnet/.vscode/extensions/esbenp.prettier-vscode-6.3.2/src/ModuleResolver.ts:141:11)
+    at t.default.<anonymous> (/home/dotnet/.vscode/extensions/esbenp.prettier-vscode-6.3.2/src/PrettierEditService.ts:169:31)
+    at Generator.next (<anonymous>)
+    at /home/dotnet/.vscode/extensions/esbenp.prettier-vscode-6.3.2/src/PrettierEditService.ts:1:1
+    at new Promise (<anonymous>)
+    at statusBar (/home/dotnet/.vscode/extensions/esbenp.prettier-vscode-6.3.2/dist/extension.js:1:9062)
+    at t.default.prettierConfigWatcher [as handleActiveTextEditorChanged] (/home/dotnet/.vscode/extensions/esbenp.prettier-vscode-6.3.2/src/PrettierEditService.ts:143:12)
+    at t.default.registerDisposables (/home/dotnet/.vscode/extensions/esbenp.prettier-vscode-6.3.2/src/PrettierEditService.ts:102:7)
+    at e.activate (/home/dotnet/.vscode/extensions/esbenp.prettier-vscode-6.3.2/dist/extension.js:1:74477)
+    at Function._callActivateOptional (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:14382)
+    at Function._callActivate (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:14051)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:12203
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Promise.all (index 0)
+["ERROR" - 7:53:56 AM] The Prettier extension is blocked from execution in this project.

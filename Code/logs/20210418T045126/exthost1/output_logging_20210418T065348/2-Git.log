@@ -1,0 +1,270 @@
+Looking for git in: git
+Using git 2.31.1 from git
+Opening repository for path='/home/dotnet/Dev/ReactNative/AwesomeTSProject' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/dotnet/Dev/ReactNative/AwesomeTSProject/.buckconfig' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dotnet/Dev/ReactNative/AwesomeTSProject/.editorconfig' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dotnet/Dev/ReactNative/AwesomeTSProject/.eslintrc.js' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dotnet/Dev/ReactNative/AwesomeTSProject/.gitattributes' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dotnet/Dev/ReactNative/AwesomeTSProject/.gitignore' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dotnet/Dev/ReactNative/AwesomeTSProject/.prettierrc.js' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dotnet/Dev/ReactNative/AwesomeTSProject/.watchmanconfig' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dotnet/Dev/ReactNative/AwesomeTSProject/App.tsx' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dotnet/Dev/ReactNative/AwesomeTSProject/__tests__' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/dotnet/Dev/ReactNative/AwesomeTSProject/android' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/dotnet/Dev/ReactNative/AwesomeTSProject/app.json' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dotnet/Dev/ReactNative/AwesomeTSProject/babel.config.js' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dotnet/Dev/ReactNative/AwesomeTSProject/index.js' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dotnet/Dev/ReactNative/AwesomeTSProject/ios' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/dotnet/Dev/ReactNative/AwesomeTSProject/metro.config.js' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dotnet/Dev/ReactNative/AwesomeTSProject/node_modules' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/dotnet/Dev/ReactNative/AwesomeTSProject/package.json' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dotnet/Dev/ReactNative/AwesomeTSProject/tsconfig.json' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dotnet/Dev/ReactNative/AwesomeTSProject/yarn.lock' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/dotnet/Dev/ReactNative/AwesomeTSProject' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/dotnet/Dev/ReactNative/AwesomeTSProject/src/navigation' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/dotnet/Dev/ReactNative/AwesomeTSProject/src/navigation' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/dotnet/Dev/ReactNative/AwesomeTSProject' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/dotnet/Dev/ReactNative/AwesomeTSProject/src/navigation' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/dotnet/Dev/ReactNative/AwesomeTSProject/android' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+> git rev-parse --git-dir
+Open repository: /home/dotnet/Dev/ReactNative/AwesomeTSProject
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :android/settings.gradle
+> git ls-files --stage -- /home/dotnet/Dev/ReactNative/AwesomeTSProject/android/settings.gradle
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git ls-files --stage -- /home/dotnet/Dev/ReactNative/AwesomeTSProject/android/settings.gradle
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git cat-file -s 0fd702d95088e9bdfb1a7eca27bcf79e68608c17
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :android/settings.gradle
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/navigation/index.js
+> git ls-files --stage -- /home/dotnet/Dev/ReactNative/AwesomeTSProject/src/navigation/index.js
+> git cat-file -s 4a7067521dbbbeb6ef412ddb5c4e26fb35d2df33
+> git show --textconv :android/settings.gradle
+> git ls-files --stage -- /home/dotnet/Dev/ReactNative/AwesomeTSProject/android/settings.gradle
+> git cat-file -s 0fd702d95088e9bdfb1a7eca27bcf79e68608c17
+> git show --textconv :src/navigation/index.js
+> git ls-files --stage -- /home/dotnet/Dev/ReactNative/AwesomeTSProject/src/navigation/index.js
+> git cat-file -s 4a7067521dbbbeb6ef412ddb5c4e26fb35d2df33
+> git show --textconv :package.json
+> git ls-files --stage -- /home/dotnet/Dev/ReactNative/AwesomeTSProject/package.json
+> git cat-file -s 3a1e23521e68ca76a566ebd1723cf684ca975068
+> git show --textconv :src/navigation/index.js
+> git ls-files --stage -- /home/dotnet/Dev/ReactNative/AwesomeTSProject/src/navigation/index.js
+> git cat-file -s 4a7067521dbbbeb6ef412ddb5c4e26fb35d2df33
+> git show --textconv :App.tsx
+> git ls-files --stage -- /home/dotnet/Dev/ReactNative/AwesomeTSProject/App.tsx
+> git cat-file -s 4c0629423dfe7c9fa70d64a6642197b95d797acb
+> git show --textconv :src/navigation/index.js
+> git ls-files --stage -- /home/dotnet/Dev/ReactNative/AwesomeTSProject/src/navigation/index.js
+> git cat-file -s 4a7067521dbbbeb6ef412ddb5c4e26fb35d2df33
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git ls-files --stage -- /home/dotnet/Dev/ReactNative/AwesomeTSProject/src/navigation/index.js
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git cat-file -s 4a7067521dbbbeb6ef412ddb5c4e26fb35d2df33
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/navigation/index.js
+> git show --textconv :index.js
+> git ls-files --stage -- /home/dotnet/Dev/ReactNative/AwesomeTSProject/index.js
+> git cat-file -s a850d031de79119ee024e9c2fe22809c31417ab3
+> git show --textconv :App.tsx
+> git ls-files --stage -- /home/dotnet/Dev/ReactNative/AwesomeTSProject/App.tsx
+> git cat-file -s 4c0629423dfe7c9fa70d64a6642197b95d797acb
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :android/app/src/main/java/com/awesometsproject/MainActivity.java
+> git ls-files --stage -- /home/dotnet/Dev/ReactNative/AwesomeTSProject/android/app/src/main/java/com/awesometsproject/MainActivity.java
+> git cat-file -s 25dd71a5b52ea77f056bccf03aa2119548896262
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :android/app/build.gradle
+> git ls-files --stage -- /home/dotnet/Dev/ReactNative/AwesomeTSProject/android/app/build.gradle
+> git cat-file -s a6ab92d00e3882d0353ef2d9b4720db281bce8ab
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :android/app/src/main/AndroidManifest.xml
+> git ls-files --stage -- /home/dotnet/Dev/ReactNative/AwesomeTSProject/android/app/src/main/AndroidManifest.xml
+> git cat-file -s 454a77a0fb91671651fa50cbbc8a42b0017e966b
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :package.json
+> git ls-files --stage -- /home/dotnet/Dev/ReactNative/AwesomeTSProject/package.json
+> git cat-file -s 3a1e23521e68ca76a566ebd1723cf684ca975068
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

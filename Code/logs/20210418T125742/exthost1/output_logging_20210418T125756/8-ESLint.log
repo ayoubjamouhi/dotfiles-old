@@ -1,0 +1,5 @@
+[Info  - 12:57:56 PM] ESLint server is starting
+[Info  - 12:57:57 PM] ESLint server running in node v12.18.3
+[Info  - 12:57:57 PM] ESLint server is running.
+[Info  - 12:57:58 PM] ESLint library loaded from: /home/dotnet/Dev/portfolio-gatspy/node_modules/eslint/lib/api.js
+[Info  - 12:57:58 PM] No ESLint configuration found in /home/dotnet/Dev/portfolio-gatspy/src/components.

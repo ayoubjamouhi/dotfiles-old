@@ -1,0 +1,36 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/ba_icon.png",
+      "default_title": "Desktopify"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "content-script/spn.js" ],
+      "matches": [ "https://*.instagram.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "css": [ "content-script/content.css" ],
+      "js": [ "lib/jquery.min.js", "content-script/file-saver.js", "content-script/instad.js", "content-script/index.js" ],
+      "matches": [ "https://*.instagram.com/*" ]
+   }, {
+      "all_frames": true,
+      "css": [ "content-script/content.css" ],
+      "js": [ "lib/jquery.min.js", "content-script/settings.js" ],
+      "matches": [ "*://*.desktop-for-ig.devanco.com/*" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "images/icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsfmG5mEw2ynU55pja42lpCLBXl7S02ncUcqSvThJ4e7zF97OrQJVp7uPOLHuyb8lLIE9rSwuIJBN//VKveG5Q3Gg/EM28jZ0kTUWoQt3toDWI0EVoXXZB72xlzVJUjC/CSzGFYgCPPCCB5GI3FRFHq/z5lmUqqTkUyjjILHTXP+AL4t/8N48BMHptnUxDIGpzYFPqxXmRptOzpoGlL1SNIDnmOoU5zDVaay5wqkIEtK7gFecSC2cgFQ0RDJruNkwVo0bxkqAoZU9cxp39r7xrTVnuYv1hV1/KMvXC8BHuQqbTPTIi1KbMI1REN4d7ph+bK/WxTDGfLl2fWfWYyjf6wIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "permissions": [ "webRequest", "webRequestBlocking", "https://*.instagram.com/*", "http://desktop-for-ig.devanco.com/*", "https://desktop-for-ig.devanco.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.7.4"
+}

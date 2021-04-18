@@ -1,3 +1,6 @@
-2021/04/16-17:14:34.748 3 Reusing MANIFEST /home/dotnet/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
-2021/04/16-17:14:34.748 3 Recovering log #4
-2021/04/16-17:14:34.749 3 Reusing old log /home/dotnet/.config/google-chrome/Default/Local Storage/leveldb/000004.log 
+2021/04/18-03:52:12.367 3 Reusing MANIFEST /home/dotnet/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2021/04/18-03:52:12.368 3 Recovering log #4
+2021/04/18-03:52:12.369 3 Reusing old log /home/dotnet/.config/google-chrome/Default/Local Storage/leveldb/000004.log 
+2021/04/18-03:54:09.835 3 Level-0 table #8: started
+2021/04/18-03:54:09.845 3 Level-0 table #8: 17853 bytes OK
+2021/04/18-03:54:09.850 3 Delete type=0 #4

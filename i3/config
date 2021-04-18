@@ -192,8 +192,10 @@ assign [class="jetbrains-idea|Code|jetbrains-studio"]                    $ws1
 # Workspace 2 (Ecran droite, Navigateur)
 assign [class="Firefox|firefoxdeveloperedition|Google-chrome|Navigator"]     $ws2
 for_window [class="Firefox|firefoxdeveloperedition|Google-chrome|Navigator"]     $ws2
-# Workspacw 3 (Terminator)
+# Workspace 3 (Terminator)
 assign [class="Terminator"]     $ws3
+# Workspace 4 (Genymotion)
+assign [class="Genymotion"]     $ws4
 # Workspace 8 (Ecran droite, Music)
 assign [class="obs"]                                $ws8
 for_window [class="obs"]          move to workspace $ws8
@@ -210,7 +212,8 @@ exec --no-startup-id "killall polybar; polybar -r default"
 exec --no-startup-id "firefox-developer-edition"
 exec --no-startup-id "terminator"
 exec --no-startup-id "code"
-exec --no-startup-id "setxkbmap -layout en,ara -option grp:alt_shift_toggle"
+#exec --no-startup-id "setxkbmap -layout en,ara -option grp:alt_shift_toggle"
+exec "setxkbmap -option 'grp:alt_shift_toggle' -layout us,ar -variant ,qwerty"
 #exec --no-startup-id nvidia-settings --load-config-only
 exec --no-startup-id picom
 #exec --no-startup-id discord
@@ -224,6 +227,8 @@ exec --no-startup-id picom
 # Désactive capslock
 exec --no-startup-id setxkbmap -option caps:none
 exec --no-startup-id setxkbmap -option fn:none
+
+exec "setxkbmap -option 'grp:alt_shift_toggle'"
 
 # I3 Gaps
 for_window [class="^.*"] border pixel 2

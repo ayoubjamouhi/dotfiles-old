@@ -1,0 +1,143 @@
+/*
+	Container styles
+*/
+
+.toolbox-extension-container {
+	display: flex !important;
+	justify-content: space-between !important;
+	flex-wrap: wrap !important;
+	width: 100% !important;
+	margin: 5px 0px 0px 0px !important;
+}
+.toolbox-extension-container .toolbox-extension-button {
+	flex: 1 !important;
+	margin-top: 5px !important;
+	margin-bottom: 5px !important;
+}
+/*
+.toolbox-extension-button:last-of-type {
+	max-width: fit-content;
+}
+*/
+
+/*
+	Button styles
+*/
+
+.toolbox-extension-button {
+	height: 36px;
+	line-height: 36px;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 14px;
+	padding: 0 20px;
+	font-style: normal;
+	font-weight: 500;
+	text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: 2px;
+	margin-right: 2px;
+	cursor: pointer;
+}
+.toolbox-extension-button button {
+	cursor: pointer !important;
+}
+.toolbox-extension-button:hover {
+	box-shadow: inset 0 -2px 0 rgba(0,0,0,0.27);
+}
+.ap-button {
+	background: #000000;
+}
+.ap-button:hover {
+	background: #333333;
+}
+.appbrain-button {
+	background: #3F51B5;
+}
+.appbrain-button:hover {
+	background: #5568d1;
+}
+.apkmirror-button, .testing-button {
+	background: #dddddd;
+	color: #c0c0c0;
+}
+.testing-enabled-button {
+	background: #009688;
+	color: #fff;
+}
+.testing-enabled-button:hover {
+	background: #26A69A;
+}
+.apkmirror-enabled-button {
+	background: #FF8B14 !important;
+	color: #fff;
+}
+.apkmirror-enabled-button:hover {
+	background: #fca144 !important;
+}
+.playstore-button {
+	background: #00abc9;
+}
+.playstore-button:hover {
+	background: #00d9ff !important;
+}
+
+/* Fix for extra spacing around Install/Wishlist buttons */
+.rlnrKc, .i9550b {
+	height: auto !important;
+}
+
+/*
+	Add scrollbar to screenshot container
+*/
+
+.toolbox-extension-gallery {
+	overflow-x: scroll !important;
+	padding-bottom: 10px !important;
+}
+.toolbox-extension-gallery::-webkit-scrollbar {
+	height: 10px;
+}
+.toolbox-extension-gallery::-webkit-scrollbar-track {
+	background: #eeeeee;
+	border-radius: 8px;
+}
+.toolbox-extension-gallery::-webkit-scrollbar-thumb {
+	background: #737373;
+	border-radius: 8px;
+}
+.toolbox-extension-gallery::-webkit-scrollbar-thumb:hover {
+	background: #949494;
+}
+
+/*
+	Mobile Play Store classes
+*/
+
+.toolbox-settings-toolbar {
+	width: calc(100%-10px);
+	padding: 10px;
+	font-size: 16px;
+	color: #FFFFFF;
+	background: #333;
+	text-align: center;
+	user-select: none;
+	cursor: pointer;
+}
+body.toolbox-extension-mobile-site .toolbox-extension-container {
+	margin-bottom: 0 !important;
+	max-width: 570px !important;
+}
+/* Fix other UI elements */
+body.toolbox-extension-mobile-site .preregistration-container button, .toolbox-extension-mobile-site .buy-button-container {
+	min-width: 0px !important;
+	padding: 0 20px 0 20px !important;
+}
+body.toolbox-extension-mobile-site .wishlist-display {
+	float: none !important;
+	width: 100% !important;
+	margin-bottom: 10px !important;
+}

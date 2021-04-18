@@ -3,10 +3,25 @@
     "openedPathsList": {
         "entries": [
             {
-                "folderUri": "file:///home/dotnet/Dev/hello"
+                "folderUri": "file:///home/dotnet/Dev/portfolio-gatspy"
             },
             {
-                "folderUri": "file:///home/dotnet/Dev/portfolio-gatspy"
+                "folderUri": "file:///home/dotnet/Dev/ReactNative/AwesomeTSProject"
+            },
+            {
+                "folderUri": "file:///home/dotnet/Dev/ReactNative/rn_bestmortgage"
+            },
+            {
+                "folderUri": "file:///home/dotnet/Dev/ReactNative/MyAppTypeScript"
+            },
+            {
+                "folderUri": "file:///home/dotnet/Dev/ReactNative/AwesomeProject"
+            },
+            {
+                "folderUri": "file:///home/dotnet/.config/polybar"
+            },
+            {
+                "folderUri": "file:///home/dotnet/Dev/hello"
             },
             {
                 "fileUri": "file:///home/dotnet/.config/i3/config"
@@ -53,10 +68,78 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "fsPath": "/home/dotnet/Dev/portfolio-gatspy",
+                                        "external": "file:///home/dotnet/Dev/portfolio-gatspy",
+                                        "path": "/home/dotnet/Dev/portfolio-gatspy",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Dev/portfolio-gatspy"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dotnet/Dev/ReactNative/AwesomeTSProject",
+                                        "path": "/home/dotnet/Dev/ReactNative/AwesomeTSProject",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Dev/ReactNative/AwesomeTSProject"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dotnet/Dev/ReactNative/rn_bestmortgage",
+                                        "path": "/home/dotnet/Dev/ReactNative/rn_bestmortgage",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Dev/ReactNative/rn_bestmortgage"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dotnet/Dev/ReactNative/MyAppTypeScript",
+                                        "path": "/home/dotnet/Dev/ReactNative/MyAppTypeScript",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Dev/ReactNative/MyAppTypeScript"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dotnet/Dev/ReactNative/AwesomeProject",
+                                        "path": "/home/dotnet/Dev/ReactNative/AwesomeProject",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Dev/ReactNative/AwesomeProject"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dotnet/.config/polybar",
+                                        "path": "/home/dotnet/.config/polybar",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/polybar"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -68,17 +151,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/Dev/hello"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/dotnet/Dev/portfolio-gatspy",
-                                        "path": "/home/dotnet/Dev/portfolio-gatspy",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Dev/portfolio-gatspy"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -149,13 +221,11 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save",
-                        "enabled": false
+                        "label": "&&Save"
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As...",
-                        "enabled": false
+                        "label": "Save &&As..."
                     },
                     {
                         "id": "saveAll",
@@ -235,18 +305,15 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File",
-                        "enabled": false
+                        "label": "Re&&vert File"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor",
-                        "enabled": false
+                        "label": "&&Close Editor"
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder",
-                        "enabled": false
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -291,13 +358,11 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find",
-                        "enabled": false
+                        "label": "&&Find"
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace",
-                        "enabled": false
+                        "label": "&&Replace"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -612,8 +677,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "Toggle &&Word Wrap",
-                        "enabled": false
+                        "label": "Toggle &&Word Wrap"
                     },
                     {
                         "id": "editor.action.toggleMinimap",
@@ -1509,7 +1573,8 @@
     "themeBackground": "#002240",
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/dotnet/.config/Code/Backups/1618426882585",
+            "folder": "file:///home/dotnet/Dev/portfolio-gatspy",
+            "backupPath": "/home/dotnet/.config/Code/Backups/0ea643aa595389e5222953495be3e50f",
             "uiState": {
                 "mode": 1,
                 "x": 0,
@@ -1520,5 +1585,5 @@
         },
         "openedWindows": []
     },
-    "pickerWorkingDir": "/home/dotnet/.config/i3"
+    "pickerWorkingDir": "/home/dotnet/Dev"
 }

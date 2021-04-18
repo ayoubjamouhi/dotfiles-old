@@ -1,0 +1,19 @@
+{
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+   },
+   "description": "Find out what the website you are visiting is built with using this extension.",
+   "icons": {
+      "128": "icon128.png",
+      "32": "icon32.png",
+      "48": "icon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPQEq1W+0L4+5iAXJ6obPHrB5leXHTIAfhyq5jgsN74GeGnXNeRmba2sqNSy4+0CBtWMx7/B3C0wwVdOTzExstmJMsW1DRg5GrcT3uO3MVAh41azJ5DK9My0yFuUv/VMEFES/jHSV838TgiMt2hPnkG697EzkS7qQWLzehefc2kQIDAQAB",
+   "manifest_version": 2,
+   "name": "BuiltWith Technology Profiler",
+   "permissions": [ "https://builtwith.com/", "tabs" ],
+   "short_name": "BuiltWith",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.3"
+}

@@ -1,0 +1,36 @@
+[2021-04-18 07:52:55.634] [renderer1] [error] Cannot invoke loadWASM more than once.: Error: Cannot invoke loadWASM more than once.
+    at Object.t.loadWASM (/opt/visual-studio-code/resources/app/node_modules.asar/vscode-oniguruma/release/main.js:1:4823)
+    at TextMateLoader.loadOniguruma (/home/dotnet/.vscode/extensions/coenraads.bracket-pair-colorizer-2-0.2.0/out/src/textMateLoader.js:115:19)
+    at new TextMateLoader (/home/dotnet/.vscode/extensions/coenraads.bracket-pair-colorizer-2-0.2.0/out/src/textMateLoader.js:19:31)
+    at new Settings (/home/dotnet/.vscode/extensions/coenraads.bracket-pair-colorizer-2-0.2.0/out/src/settings.js:10:31)
+    at new DocumentDecorationManager (/home/dotnet/.vscode/extensions/coenraads.bracket-pair-colorizer-2-0.2.0/out/src/documentDecorationManager.js:9:25)
+    at restart (/home/dotnet/.vscode/extensions/coenraads.bracket-pair-colorizer-2-0.2.0/out/src/extension.js:42:37)
+    at /home/dotnet/.vscode/extensions/coenraads.bracket-pair-colorizer-2-0.2.0/out/src/extension.js:7:43
+    at _.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at D.deltaExtensions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:73206)
+    at h.$deltaExtensions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:19664)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-18 07:53:03.606] [renderer1] [error] Cannot invoke loadWASM more than once.: Error: Cannot invoke loadWASM more than once.
+    at Object.t.loadWASM (/opt/visual-studio-code/resources/app/node_modules.asar/vscode-oniguruma/release/main.js:1:4823)
+    at TextMateLoader.loadOniguruma (/home/dotnet/.vscode/extensions/coenraads.bracket-pair-colorizer-2-0.2.0/out/src/textMateLoader.js:115:19)
+    at new TextMateLoader (/home/dotnet/.vscode/extensions/coenraads.bracket-pair-colorizer-2-0.2.0/out/src/textMateLoader.js:19:31)
+    at new Settings (/home/dotnet/.vscode/extensions/coenraads.bracket-pair-colorizer-2-0.2.0/out/src/settings.js:10:31)
+    at new DocumentDecorationManager (/home/dotnet/.vscode/extensions/coenraads.bracket-pair-colorizer-2-0.2.0/out/src/documentDecorationManager.js:9:25)
+    at restart (/home/dotnet/.vscode/extensions/coenraads.bracket-pair-colorizer-2-0.2.0/out/src/extension.js:42:37)
+    at /home/dotnet/.vscode/extensions/coenraads.bracket-pair-colorizer-2-0.2.0/out/src/extension.js:7:43
+    at _.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at D.deltaExtensions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:73206)
+    at h.$deltaExtensions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:19664)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-18 07:53:11.417] [renderer1] [error] Cannot invoke loadWASM more than once.: Error: Cannot invoke loadWASM more than once.
+    at Object.t.loadWASM (/opt/visual-studio-code/resources/app/node_modules.asar/vscode-oniguruma/release/main.js:1:4823)
+    at TextMateLoader.loadOniguruma (/home/dotnet/.vscode/extensions/coenraads.bracket-pair-colorizer-2-0.2.0/out/src/textMateLoader.js:115:19)
+    at new TextMateLoader (/home/dotnet/.vscode/extensions/coenraads.bracket-pair-colorizer-2-0.2.0/out/src/textMateLoader.js:19:31)
+    at new Settings (/home/dotnet/.vscode/extensions/coenraads.bracket-pair-colorizer-2-0.2.0/out/src/settings.js:10:31)
+    at new DocumentDecorationManager (/home/dotnet/.vscode/extensions/coenraads.bracket-pair-colorizer-2-0.2.0/out/src/documentDecorationManager.js:9:25)
+    at restart (/home/dotnet/.vscode/extensions/coenraads.bracket-pair-colorizer-2-0.2.0/out/src/extension.js:42:37)
+    at /home/dotnet/.vscode/extensions/coenraads.bracket-pair-colorizer-2-0.2.0/out/src/extension.js:7:43
+    at _.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at D.deltaExtensions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:73206)
+    at h.$deltaExtensions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:91:19664)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)

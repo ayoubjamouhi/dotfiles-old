@@ -1,0 +1,5 @@
+2021/04/18-05:21:17.240 19b5 Reusing MANIFEST /home/dotnet/.config/google-chrome/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/18-05:21:49.259 199f Level-0 table #5: started
+2021/04/18-05:21:49.268 199f Level-0 table #5: 1231 bytes OK
+2021/04/18-05:21:49.271 199f Delete type=0 #3
+2021/04/18-05:21:49.271 199f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

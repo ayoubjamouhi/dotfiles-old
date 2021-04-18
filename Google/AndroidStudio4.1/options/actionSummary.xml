@@ -1,11 +1,20 @@
 <application>
   <component name="ActionsLocalSummary">
     <data>
+      <entry key="Android.RunAndroidAvdManager">
+        <ActionSummary times="4" last="1618680804121" />
+      </entry>
+      <entry key="Android.RunAndroidSdkManager">
+        <ActionSummary times="2" last="1618645480964" />
+      </entry>
       <entry key="Exit">
-        <ActionSummary times="1" last="1618424721167" />
+        <ActionSummary times="4" last="1618680819357" />
       </entry>
       <entry key="QuickJavaDoc">
-        <ActionSummary times="2" last="1618424718726" />
+        <ActionSummary times="3" last="1618645287295" />
+      </entry>
+      <entry key="Run">
+        <ActionSummary times="2" last="1618645239370" />
       </entry>
       <entry key="WelcomeScreen.CreateNewProject">
         <ActionSummary times="1" last="1618424332850" />
