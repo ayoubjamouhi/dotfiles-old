@@ -1,0 +1,315 @@
+Looking for git in: git
+Using git 2.31.1 from git
+> git rev-parse --git-dir
+Open repository: /home/dotnet/Dev/portfolio
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dotnet/Dev/portfolio/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/dotnet/Dev/portfolio/src/components/Header.js
+> git show --textconv :src/components/Header.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/src/components/Header.js
+> git cat-file -s 43e9761857c1b3dd9f6144fb1268f09a62a7a650
+> git show --textconv :.editorconfig
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/.editorconfig
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dotnet/Dev/portfolio/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dotnet/Dev/portfolio/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :src/components/Header.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/src/components/Header.js
+> git cat-file -s 43e9761857c1b3dd9f6144fb1268f09a62a7a650
+> git show --textconv :.editorconfig
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/.editorconfig
+> git show --textconv :src/components/seo.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/src/components/seo.js
+> git cat-file -s 4ba1ae64046404ddf229053e1166fbb3834dead9
+> git show --textconv :.editorconfig
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/.editorconfig
+> git check-ignore -v -z --stdin
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/dotnet/Dev/portfolio/.editorconfig
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dotnet/Dev/portfolio/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/.editorconfig
+> git cat-file -s ae10a5cce3b26a0832879cd7d3682cee8824d1fb
+> git show --textconv :.editorconfig
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dotnet/Dev/portfolio/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dotnet/Dev/portfolio/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git config --get commit.template
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/.editorconfig
+> git cat-file -s ae10a5cce3b26a0832879cd7d3682cee8824d1fb
+> git show --textconv :.editorconfig
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dotnet/Dev/portfolio/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv HEAD:src/styles/GlobalStyles.js
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/styles/GlobalStyles.js
+> git show --textconv HEAD:src/components/layout.js
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/components/layout.js
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/dotnet/Dev/portfolio/src/styles/GlobalStyles.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dotnet/Dev/portfolio/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/src/styles/GlobalStyles.js
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/components/layout.js
+> git cat-file -s 2c09e309391a8cf49fb3dd22f38068970d3c19ad
+> git show --textconv HEAD:src/components/layout.js
+> git show --textconv :src/styles/GlobalStyles.js
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/dotnet/Dev/portfolio/src/components/layout.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dotnet/Dev/portfolio/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dotnet/Dev/portfolio/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/src/styles/GlobalStyles.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/src/components/layout.js
+> git cat-file -s 2c09e309391a8cf49fb3dd22f38068970d3c19ad
+> git cat-file -s c239b04b5523514ab9c6387ff4e6d137e0586025
+> git show --textconv :src/styles/GlobalStyles.js
+> git show --textconv :src/components/layout.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dotnet/Dev/portfolio/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/dotnet/Dev/portfolio/src/pages/index.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dotnet/Dev/portfolio/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/src/styles/GlobalStyles.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/src/components/layout.js
+> git cat-file -s 2c09e309391a8cf49fb3dd22f38068970d3c19ad
+> git cat-file -s c239b04b5523514ab9c6387ff4e6d137e0586025
+> git show --textconv :src/styles/GlobalStyles.js
+> git show --textconv :src/components/layout.js
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dotnet/Dev/portfolio/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dotnet/Dev/portfolio/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/styles/GlobalStyles.js
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/components/layout.js
+> git show --textconv HEAD:src/styles/GlobalStyles.js
+> git show --textconv HEAD:src/components/layout.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dotnet/Dev/portfolio/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/components/layout.js
+> git add -A -- .
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/components/layout.js
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dotnet/Dev/portfolio/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/styles/GlobalStyles.js
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/components/layout.js
+> git show --textconv HEAD:src/styles/GlobalStyles.js
+> git show --textconv HEAD:src/components/layout.js
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/components/layout.js
+> git log --oneline --cherry master...master@{upstream} --
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git pull --tags origin master
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/dotnet/Dev/portfolio/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+From https://github.com/ayoubjamouhi/portfolio-gatspy
+ * branch            master     -> FETCH_HEAD
+hint: Pulling without specifying how to reconcile divergent branches is
+hint: discouraged. You can squelch this message by running one of the following
+hint: commands sometime before your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+> git push origin master:master
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/components/layout.js
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/styles/GlobalStyles.js
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/components/layout.js
+> git show --textconv HEAD:src/components/layout.js
+> git show --textconv HEAD:src/styles/GlobalStyles.js
+> git show --textconv HEAD:src/components/layout.js
+remote: No anonymous write access.
+fatal: Authentication failed for 'https://github.com/ayoubjamouhi/portfolio-gatspy/'
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/components/layout.js
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/components/layout.js
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/components/layout.js
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/components/layout.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/styles/GlobalStyles.js
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/components/layout.js
+> git show --textconv HEAD:src/components/layout.js
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git show --textconv HEAD:src/styles/GlobalStyles.js
+> git show --textconv HEAD:src/components/layout.js
+Warning: Failed to watch ref '/home/dotnet/Dev/portfolio/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/components/layout.js
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/components/layout.js
+> git log --oneline --cherry master...master@{upstream} --
+> git pull --tags origin master
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/styles/GlobalStyles.js
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/components/layout.js
+> git show --textconv HEAD:src/styles/GlobalStyles.js
+> git show --textconv HEAD:src/components/layout.js
+From github.com:ayoubjamouhi/portfolio-gatspy
+ * branch            master     -> FETCH_HEAD
+hint: Pulling without specifying how to reconcile divergent branches is
+hint: discouraged. You can squelch this message by running one of the following
+hint: commands sometime before your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+> git push origin master:master
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/styles/GlobalStyles.js
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/components/layout.js
+> git show --textconv HEAD:src/components/layout.js
+> git show --textconv HEAD:src/styles/GlobalStyles.js
+To github.com:ayoubjamouhi/portfolio-gatspy
+   c98eb5b..d6d91d3  master -> master
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/styles/GlobalStyles.js
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/components/layout.js
+> git show --textconv HEAD:src/styles/GlobalStyles.js
+> git show --textconv HEAD:src/components/layout.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/styles/GlobalStyles.js
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/components/layout.js
+> git show --textconv HEAD:src/styles/GlobalStyles.js
+> git show --textconv HEAD:src/components/layout.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/components/layout.js
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/components/layout.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/styles/GlobalStyles.js
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/components/layout.js
+> git show --textconv HEAD:src/components/layout.js
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git show --textconv HEAD:src/styles/GlobalStyles.js
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git show --textconv HEAD:src/components/layout.js
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/dotnet/Dev/portfolio/src/styles/GlobalStyles.js
+> git show --textconv :.editorconfig
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/.editorconfig
+> git cat-file -s ae10a5cce3b26a0832879cd7d3682cee8824d1fb
+> git show --textconv :src/components/seo.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/src/components/seo.js
+> git cat-file -s ffd6f7a972b5d97aae0fd5eeb6474f3983704e86

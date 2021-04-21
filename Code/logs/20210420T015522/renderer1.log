@@ -1,0 +1,5 @@
+[2021-04-20 01:55:24.334] [renderer1] [warning] Error querying extensions gallery {}
+[2021-04-20 01:55:24.692] [renderer1] [error] net::ERR_INTERNET_DISCONNECTED: Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:109:6508)
+    at SimpleURLLoaderWrapper.emit (events.js:315:20)
+[2021-04-20 01:55:35.896] [renderer1] [warning] UNRESPONSIVE extension host, 'Zignd.html-css-class-completion' took 91% of 2864.461ms, saved PROFILE here: 'file:///tmp/exthost-360c3b.cpuprofile' [{"id":"CoenraadS.bracket-pair-colorizer-2","total":2504,"percentage":0},{"id":"extr0py.vscode-relative-line-numbers","total":6716,"percentage":0},{"id":"gc","total":186931,"percentage":7},{"id":"program","total":952,"percentage":0},{"id":"self","total":56917,"percentage":2},{"id":"vscode.typescript-language-features","total":5273,"percentage":0},{"id":"vscodevim.vim","total":1705,"percentage":0},{"id":"Zignd.html-css-class-completion","total":2603338,"percentage":91}]

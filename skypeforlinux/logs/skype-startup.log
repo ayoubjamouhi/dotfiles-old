@@ -1,0 +1,21 @@
+(electron) Sending uncompressed crash reports is deprecated and will be removed in a future version of Electron. Set { compress: true } to opt-in to the new behavior. Crash reports will be uploaded gzipped, which most crash reporting servers support.
+(node:64573) electron: The default of contextIsolation is deprecated and will be changing from false to true in a future release of Electron.  See https://github.com/electron/electron/issues/23506 for more information
+Error occurred in handler for 'keychain:delete-password': [Error: The name org.freedesktop.secrets was not provided by any .service files]
+Error occurred in handler for 'keychain:get-password': [Error: The name org.freedesktop.secrets was not provided by any .service files]
+Error occurred in handler for 'keychain:get-password': [Error: The name org.freedesktop.secrets was not provided by any .service files]
+Error occurred in handler for 'keychain:get-password': [Error: The name org.freedesktop.secrets was not provided by any .service files]
+Error occurred in handler for 'keychain:delete-password': [Error: The name org.freedesktop.secrets was not provided by any .service files]
+(node:64573) electron: The default of contextIsolation is deprecated and will be changing from false to true in a future release of Electron.  See https://github.com/electron/electron/issues/23506 for more information
+Error occurred in handler for 'keychain:set-password': [Error: The name org.freedesktop.secrets was not provided by any .service files]
+Error occurred in handler for 'keychain:set-password': [Error: The name org.freedesktop.secrets was not provided by any .service files]
+Error occurred in handler for 'keychain:delete-password': [Error: The name org.freedesktop.secrets was not provided by any .service files]
+Error occurred in handler for 'keychain:delete-password': [Error: The name org.freedesktop.secrets was not provided by any .service files]
+Error occurred in handler for 'keychain:get-password': [Error: The name org.freedesktop.secrets was not provided by any .service files]
+ioctl failed for wlan0, errno = 19 (No such device)
+ioctl failed for wlp2s0, errno = 19 (No such device)
+ioctl failed for wlp3s0, errno = 19 (No such device)
+ioctl failed for wlp4s0, errno = 19 (No such device)
+ioctl failed for wlan0, errno = 19 (No such device)
+ioctl failed for wlp2s0, errno = 19 (No such device)
+ioctl failed for wlp3s0, errno = 19 (No such device)
+ioctl failed for wlp4s0, errno = 19 (No such device)

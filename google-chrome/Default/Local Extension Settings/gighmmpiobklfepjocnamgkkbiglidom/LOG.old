@@ -1,10 +1,48 @@
-2021/04/18-03:53:09.967 268d Reusing MANIFEST /home/dotnet/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
-2021/04/18-03:53:19.986 2756 Level-0 table #5: started
-2021/04/18-03:53:20.088 2756 Level-0 table #5: 6624825 bytes OK
-2021/04/18-03:53:20.091 2756 Delete type=0 #3
-2021/04/18-03:54:11.979 2751 Level-0 table #7: started
-2021/04/18-03:54:12.074 2751 Level-0 table #7: 5684007 bytes OK
-2021/04/18-03:54:12.076 2751 Delete type=0 #4
-2021/04/18-04:10:14.044 2e3a Level-0 table #9: started
-2021/04/18-04:10:14.152 2e3a Level-0 table #9: 5683913 bytes OK
-2021/04/18-04:10:14.156 2e3a Delete type=0 #6
+2021/04/18-05:01:31.793 e5f Reusing MANIFEST /home/dotnet/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2021/04/18-05:01:31.793 e5f Recovering log #8
+2021/04/18-05:01:31.794 e5f Reusing old log /home/dotnet/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/000008.log 
+2021/04/18-05:02:34.560 e27 Level-0 table #12: started
+2021/04/18-05:02:34.621 e27 Level-0 table #12: 5684466 bytes OK
+2021/04/18-05:02:34.623 e27 Delete type=0 #8
+2021/04/18-05:02:34.845 e27 Level-0 table #14: started
+2021/04/18-05:02:34.904 e27 Level-0 table #14: 5683929 bytes OK
+2021/04/18-05:02:34.906 e27 Delete type=0 #11
+2021/04/18-06:02:34.349 205f Level-0 table #16: started
+2021/04/18-06:02:34.402 205f Level-0 table #16: 5684530 bytes OK
+2021/04/18-06:02:34.405 205f Delete type=0 #13
+2021/04/18-06:02:34.406 205f Compacting 4@0 + 1@1 files
+2021/04/18-06:02:34.498 205f Generated table #17@0: 1 keys, 5683935 bytes
+2021/04/18-06:02:34.502 205f Generated table #18@0: 4 keys, 225 bytes
+2021/04/18-06:02:34.502 205f Compacted 4@0 + 1@1 files => 5684160 bytes
+2021/04/18-06:02:34.504 205f compacted to: files[ 0 2 1 0 0 0 0 ]
+2021/04/18-06:02:34.504 205f Delete type=2 #9
+2021/04/18-06:02:34.504 205f Delete type=2 #14
+2021/04/18-06:02:34.504 205f Delete type=2 #16
+2021/04/18-06:02:34.504 205f Delete type=2 #7
+2021/04/18-06:02:34.504 205f Delete type=2 #12
+2021/04/18-06:02:34.898 205f Level-0 table #20: started
+2021/04/18-06:02:34.951 205f Level-0 table #20: 5683935 bytes OK
+2021/04/18-06:02:34.954 205f Delete type=0 #15
+2021/04/18-06:02:36.210 2042 Level-0 table #22: started
+2021/04/18-06:02:36.270 2042 Level-0 table #22: 5684121 bytes OK
+2021/04/18-06:02:36.274 2042 Delete type=0 #19
+2021/04/18-06:53:23.163 2042 Level-0 table #24: started
+2021/04/18-06:53:23.220 2042 Level-0 table #24: 5683930 bytes OK
+2021/04/18-06:53:23.223 2042 Delete type=0 #21
+2021/04/18-07:02:34.970 2316 Level-0 table #26: started
+2021/04/18-07:02:35.045 2316 Level-0 table #26: 5683933 bytes OK
+2021/04/18-07:02:35.048 2316 Delete type=0 #23
+2021/04/18-07:02:35.050 2316 Compacting 4@0 + 2@1 files
+2021/04/18-07:02:35.171 2316 Generated table #27@0: 1 keys, 5683933 bytes
+2021/04/18-07:02:35.175 2316 Generated table #28@0: 5 keys, 371 bytes
+2021/04/18-07:02:35.175 2316 Compacted 4@0 + 2@1 files => 5684304 bytes
+2021/04/18-07:02:35.177 2316 compacted to: files[ 0 2 1 0 0 0 0 ]
+2021/04/18-07:02:35.177 2316 Delete type=2 #24
+2021/04/18-07:02:35.177 2316 Delete type=2 #26
+2021/04/18-07:02:35.177 2316 Delete type=2 #18
+2021/04/18-07:02:35.177 2316 Delete type=2 #22
+2021/04/18-07:02:35.177 2316 Delete type=2 #17
+2021/04/18-07:02:35.177 2316 Delete type=2 #20
+2021/04/18-07:23:11.810 21da Level-0 table #30: started
+2021/04/18-07:23:11.874 21da Level-0 table #30: 5683932 bytes OK
+2021/04/18-07:23:11.877 21da Delete type=0 #25

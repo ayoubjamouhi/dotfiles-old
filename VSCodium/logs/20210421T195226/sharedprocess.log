@@ -1,0 +1,7 @@
+[2021-04-21 19:53:07.424] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-04-21 22:36:37.918] [sharedprocess] [info] Installing extension: bradlc.vscode-tailwindcss
+[2021-04-21 22:36:38.463] [sharedprocess] [info] Downloaded extension: bradlc.vscode-tailwindcss undefined
+[2021-04-21 22:36:38.504] [sharedprocess] [info] Extracted extension to /home/dotnet/.vscode-oss/extensions/.959e78b7-311f-47bd-8923-00145a728052: bradlc.vscode-tailwindcss
+[2021-04-21 22:36:38.509] [sharedprocess] [info] Renamed to /home/dotnet/.vscode-oss/extensions/bradlc.vscode-tailwindcss-0.5.10
+[2021-04-21 22:36:38.510] [sharedprocess] [info] Installation completed. bradlc.vscode-tailwindcss
+[2021-04-21 22:36:38.512] [sharedprocess] [info] Extensions installed successfully: bradlc.vscode-tailwindcss

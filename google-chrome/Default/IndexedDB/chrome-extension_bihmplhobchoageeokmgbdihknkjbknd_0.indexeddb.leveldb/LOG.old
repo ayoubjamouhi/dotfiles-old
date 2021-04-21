@@ -1,1 +1,7 @@
-2021/04/18-03:53:00.089 2421 Reusing MANIFEST /home/dotnet/.config/google-chrome/Default/IndexedDB/chrome-extension_bihmplhobchoageeokmgbdihknkjbknd_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/18-05:01:32.188 e27 Reusing MANIFEST /home/dotnet/.config/google-chrome/Default/IndexedDB/chrome-extension_bihmplhobchoageeokmgbdihknkjbknd_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/18-05:01:32.188 e27 Recovering log #3
+2021/04/18-05:01:32.188 e27 Reusing old log /home/dotnet/.config/google-chrome/Default/IndexedDB/chrome-extension_bihmplhobchoageeokmgbdihknkjbknd_0.indexeddb.leveldb/000003.log 
+2021/04/18-07:37:39.295 2318 Level-0 table #5: started
+2021/04/18-07:37:39.336 2318 Level-0 table #5: 1356 bytes OK
+2021/04/18-07:37:39.381 2318 Delete type=0 #3
+2021/04/18-07:37:39.390 2318 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

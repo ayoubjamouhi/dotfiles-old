@@ -23,4 +23,4 @@ application/x-extension-shtml=firefox-developer-edition.desktop;
 application/xhtml+xml=firefox-developer-edition.desktop;
 application/x-extension-xhtml=firefox-developer-edition.desktop;
 application/x-extension-xht=firefox-developer-edition.desktop;
-application/vnd.openxmlformats-officedocument.wordprocessingml.document=firefox-developer-edition.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=google-chrome.desktop;firefox-developer-edition.desktop;

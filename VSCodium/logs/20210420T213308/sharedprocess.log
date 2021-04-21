@@ -1,0 +1,13 @@
+[2021-04-20 21:33:49.338] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-04-20 21:36:32.380] [sharedprocess] [info] Installing extension: editorconfig.editorconfig
+[2021-04-20 21:36:33.670] [sharedprocess] [info] Downloaded extension: editorconfig.editorconfig undefined
+[2021-04-20 21:36:33.752] [sharedprocess] [info] Extracted extension to /home/dotnet/.vscode-oss/extensions/.954619ec-de06-4ffb-87fa-2c58a599cb21: editorconfig.editorconfig
+[2021-04-20 21:36:33.758] [sharedprocess] [info] Renamed to /home/dotnet/.vscode-oss/extensions/editorconfig.editorconfig-0.16.4
+[2021-04-20 21:36:33.759] [sharedprocess] [info] Installation completed. editorconfig.editorconfig
+[2021-04-20 21:36:33.762] [sharedprocess] [info] Extensions installed successfully: editorconfig.editorconfig
+[2021-04-20 21:37:12.213] [sharedprocess] [info] Installing extension: jpoissonnier.vscode-styled-components
+[2021-04-20 21:37:13.110] [sharedprocess] [info] Downloaded extension: jpoissonnier.vscode-styled-components undefined
+[2021-04-20 21:37:14.391] [sharedprocess] [info] Extracted extension to /home/dotnet/.vscode-oss/extensions/.6b8d37e2-4895-4f2b-85c5-fa41dd655bd5: jpoissonnier.vscode-styled-components
+[2021-04-20 21:37:14.396] [sharedprocess] [info] Renamed to /home/dotnet/.vscode-oss/extensions/jpoissonnier.vscode-styled-components-1.5.0
+[2021-04-20 21:37:14.397] [sharedprocess] [info] Installation completed. jpoissonnier.vscode-styled-components
+[2021-04-20 21:37:14.399] [sharedprocess] [info] Extensions installed successfully: jpoissonnier.vscode-styled-components

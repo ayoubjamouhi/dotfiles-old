@@ -3,6 +3,15 @@
     "openedPathsList": {
         "entries": [
             {
+                "folderUri": "file:///home/dotnet/Dev/portfolio"
+            },
+            {
+                "folderUri": "file:///home/dotnet/Dev/PHP/test-app"
+            },
+            {
+                "folderUri": "file:///home/dotnet/Dev/PHP/example-app"
+            },
+            {
                 "folderUri": "file:///home/dotnet/Dev/portfolio-gatspy"
             },
             {
@@ -78,7 +87,40 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/dotnet/Dev/portfolio-gatspy",
+                                        "fsPath": "/home/dotnet/Dev/portfolio",
+                                        "external": "file:///home/dotnet/Dev/portfolio",
+                                        "path": "/home/dotnet/Dev/portfolio",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Dev/portfolio"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dotnet/Dev/PHP/test-app",
+                                        "path": "/home/dotnet/Dev/PHP/test-app",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Dev/PHP/test-app"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dotnet/Dev/PHP/example-app",
+                                        "path": "/home/dotnet/Dev/PHP/example-app",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Dev/PHP/example-app"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/dotnet/Dev/portfolio-gatspy",
                                         "path": "/home/dotnet/Dev/portfolio-gatspy",
                                         "scheme": "file"
@@ -1573,14 +1615,14 @@
     "themeBackground": "#002240",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/dotnet/Dev/portfolio-gatspy",
-            "backupPath": "/home/dotnet/.config/Code/Backups/0ea643aa595389e5222953495be3e50f",
+            "folder": "file:///home/dotnet/Dev/portfolio",
+            "backupPath": "/home/dotnet/.config/Code/Backups/d5473b38d7c375b7c7c52484ccd8f5ec",
             "uiState": {
                 "mode": 1,
-                "x": 0,
-                "y": 38,
-                "width": 1920,
-                "height": 1042
+                "x": 966,
+                "y": 48,
+                "width": 944,
+                "height": 1022
             }
         },
         "openedWindows": []

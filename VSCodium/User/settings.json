@@ -1,0 +1,73 @@
+{
+  "workbench.colorTheme": "jfna",
+  "editor.fontFamily": "Victor Mono", //i.e. add "Medium"
+  "editor.fontWeight": "500", //To make it even bolder (Though optional)
+  "files.autoSave": "onFocusChange",
+  "editor.fontSize": 18,
+  "editor.cursorBlinking": "expand",
+  "explorer.openEditors.visible": 0,
+  "workbench.editor.enablePreview": false,
+  "editor.minimap.enabled": false,
+  "editor.renderIndentGuides": false,
+  "editor.tokenColorCustomizations": {
+    // "comments": "#8d8579"
+  },
+  "editor.matchBrackets": "always",
+  // Changes the multi cursor mouse binding
+  //"editor.multiCursorModifier": "ctrlCmd",
+  "files.associations": {
+    ".php_cs": "php",
+    ".php_cs.dist": "php"
+  },
+  // The Cursive font is operator Mono, it's $200 and you need to buy it to get the cursive
+  "editor.lineHeight": 28,
+  "editor.letterSpacing": 0.6,
+  "files.trimTrailingWhitespace": true,
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 3,
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+  "php.validate.executablePath": "/usr/bin/php",
+  "php.validate.enable": true,
+  "php.validate.run": "onType",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+  },
+  "window.title": "${folderName}${separator}${activeEditorMedium}",
+  "workbench.iconTheme": "material-icon-theme",
+  "diffEditor.ignoreTrimWhitespace": false,
+  /*"files.associations": {
+      "*.js": "javascriptreact"
+    }*/
+  // These are all my auto-save configs
+  "editor.formatOnSave": true,
+  // turn it off for JS and JSX, we will do this via eslint
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "[typescript]":{
+    "editor.formatOnSave": false
+  },
+  // tell the ESLint plugin to run on save
+  "eslint.codeActionsOnSave.mode": "all",
+  // Optional BUT IMPORTANT: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
+  "editor.maxTokenizationLineLength": 40000,
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+  "php-cs-fixer.lastDownload": 1618728185629,
+  "terminal.integrated.rendererType": "dom",
+  "window.zoomLevel": 1,
+  "git.autofetch": true,
+  // show eslint icon at bottom toolbar
+  "eslint.alwaysShowStatus": true,
+  // tell the ESLint plugin to run on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "vscode-neovim.neovimInitVimPaths.linux": "$HOME/.config/nvim/init.vim",
+  "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+  // Optional BUT IMPORTANT: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
+}
