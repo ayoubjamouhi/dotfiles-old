@@ -49,12 +49,23 @@
       "editor.formatOnSave": false,
       "editor.defaultFormatter": null
     },
+    "[typescript]":{
+      "editor.formatOnSave": false
+    },
     // tell the ESLint plugin to run on save
     "eslint.codeActionsOnSave.mode": "all",
     // Optional BUT IMPORTANT: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
     "editor.maxTokenizationLineLength": 40000,
     "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-    "php-cs-fixer.lastDownload": 1570459292207,
+    "php-cs-fixer.lastDownload": 1618728185629,
     "terminal.integrated.rendererType": "dom",
     "window.zoomLevel": 1,
+    "git.autofetch": true,
+    // show eslint icon at bottom toolbar
+    "eslint.alwaysShowStatus": true,
+    // tell the ESLint plugin to run on save
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    },
+    // Optional BUT IMPORTANT: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
   }

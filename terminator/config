@@ -2,12 +2,14 @@
 [keybindings]
 [profiles]
   [[default]]
-    background_color = "#454545"
     background_darkness = 0.2
-    cursor_color = "#aaaaaa"
-    font = Source Code Pro Bold Italic 15
+    font = Victor Mono Semi-Bold 15
     foreground_color = "#ffffff"
     use_system_font = False
+    background_color = "#132738"
+    cursor_color = "#f0cc09"
+    palette = "#000000:#ff0000:#38de21:#ffe50a:#1460d2:#ff005d:#00bbbb:#bbbbbb:#555555:#f40e17:#3bd01d:#edc809:#5555ff:#ff55ff:#6ae3fa:#ffffff"
+
 [layouts]
   [[default]]
     [[[window0]]]

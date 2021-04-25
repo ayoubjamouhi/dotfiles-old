@@ -1,0 +1,6 @@
+[2021-04-25 03:02:54.465] [renderer1] [error] net::ERR_INTERNET_DISCONNECTED: Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6497)
+    at SimpleURLLoaderWrapper.emit (events.js:315:20)
+[2021-04-25 03:02:56.637] [renderer1] [error] net::ERR_INTERNET_DISCONNECTED: Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6497)
+    at SimpleURLLoaderWrapper.emit (events.js:315:20)

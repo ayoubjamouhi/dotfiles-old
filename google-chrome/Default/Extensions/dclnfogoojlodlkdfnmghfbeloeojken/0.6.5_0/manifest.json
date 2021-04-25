@@ -1,0 +1,31 @@
+{
+   "author": "appstorespy.com",
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "asodigger16.png",
+      "default_title": "AppstoreSpy"
+   },
+   "content_scripts": [ {
+      "css": [ "playspy.css" ],
+      "js": [ "content.js" ],
+      "matches": [ "https://play.google.com/store/*", "https://appstorespy.com/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' 'sha256-leRJjMcLmxMhWLZvX3CDH4UCjzzkht71m9bu7A33I8g=' https://www.googletagmanager.com https://www.google-analytics.com; object-src 'self'",
+   "description": "Enrich Play Store with mobile app analytics from AppstoreSpy",
+   "icons": {
+      "128": "asodigger128.png",
+      "16": "asodigger16.png",
+      "32": "asodigger32.png",
+      "48": "asodigger48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAliOTpkHiCbc/KfA3SDodN+VQkPKemFGYXGOouGCt7UVP6Rqp9LdhvXfFXgS+6jlauuIsmHGFZuUtP4dFZi7oNQsYRSoge4SdHc+L7HWv+ijNvX1V3ClQjFc94Hl+XQb2w03omFRGPcvtwnNH7tzEwljDQZu0HXKRQ3VLIXo91EdcodSh2C3Y+TrRN5d557OqoQVtKDTKsdq+K5MIJ88G9ihfvh0+ibsedEfn4CSC9wCRLPE8Y5Tbm/JyrTK+4KOTQg1TDlGjaY8WYWo6K1ro81Mj2M7hIYxOwpcZBUfbRQYIn0MiH7YXcraVbfTPMCVqKUuOlVw63OdrsvfGvE4HzwIDAQAB",
+   "manifest_version": 2,
+   "name": "AppstoreSpy for Play Store",
+   "permissions": [ "identity", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.6.5",
+   "web_accessible_resources": [ "*.png" ]
+}

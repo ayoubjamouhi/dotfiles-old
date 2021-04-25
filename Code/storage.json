@@ -3,10 +3,34 @@
     "openedPathsList": {
         "entries": [
             {
-                "folderUri": "file:///home/dotnet/Dev/hello"
+                "folderUri": "file:///home/dotnet/Dev/portfolio"
+            },
+            {
+                "folderUri": "file:///home/dotnet/Dev/PHP/test-app"
+            },
+            {
+                "folderUri": "file:///home/dotnet/Dev/PHP/example-app"
             },
             {
                 "folderUri": "file:///home/dotnet/Dev/portfolio-gatspy"
+            },
+            {
+                "folderUri": "file:///home/dotnet/Dev/ReactNative/AwesomeTSProject"
+            },
+            {
+                "folderUri": "file:///home/dotnet/Dev/ReactNative/rn_bestmortgage"
+            },
+            {
+                "folderUri": "file:///home/dotnet/Dev/ReactNative/MyAppTypeScript"
+            },
+            {
+                "folderUri": "file:///home/dotnet/Dev/ReactNative/AwesomeProject"
+            },
+            {
+                "folderUri": "file:///home/dotnet/.config/polybar"
+            },
+            {
+                "folderUri": "file:///home/dotnet/Dev/hello"
             },
             {
                 "fileUri": "file:///home/dotnet/.config/i3/config"
@@ -63,12 +87,35 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/dotnet/Dev/hello",
-                                        "path": "/home/dotnet/Dev/hello",
+                                        "fsPath": "/home/dotnet/Dev/portfolio",
+                                        "external": "file:///home/dotnet/Dev/portfolio",
+                                        "path": "/home/dotnet/Dev/portfolio",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Dev/hello"
+                                    "label": "~/Dev/portfolio"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dotnet/Dev/PHP/test-app",
+                                        "path": "/home/dotnet/Dev/PHP/test-app",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Dev/PHP/test-app"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dotnet/Dev/PHP/example-app",
+                                        "path": "/home/dotnet/Dev/PHP/example-app",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Dev/PHP/example-app"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -80,6 +127,72 @@
                                     },
                                     "enabled": true,
                                     "label": "~/Dev/portfolio-gatspy"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dotnet/Dev/ReactNative/AwesomeTSProject",
+                                        "path": "/home/dotnet/Dev/ReactNative/AwesomeTSProject",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Dev/ReactNative/AwesomeTSProject"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dotnet/Dev/ReactNative/rn_bestmortgage",
+                                        "path": "/home/dotnet/Dev/ReactNative/rn_bestmortgage",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Dev/ReactNative/rn_bestmortgage"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dotnet/Dev/ReactNative/MyAppTypeScript",
+                                        "path": "/home/dotnet/Dev/ReactNative/MyAppTypeScript",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Dev/ReactNative/MyAppTypeScript"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dotnet/Dev/ReactNative/AwesomeProject",
+                                        "path": "/home/dotnet/Dev/ReactNative/AwesomeProject",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Dev/ReactNative/AwesomeProject"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dotnet/.config/polybar",
+                                        "path": "/home/dotnet/.config/polybar",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/polybar"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dotnet/Dev/hello",
+                                        "path": "/home/dotnet/Dev/hello",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Dev/hello"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -242,8 +355,7 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder",
-                        "enabled": false
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -607,8 +719,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "Toggle &&Word Wrap",
-                        "checked": true
+                        "label": "Toggle &&Word Wrap"
                     },
                     {
                         "id": "editor.action.toggleMinimap",
@@ -643,7 +754,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1503,16 +1615,17 @@
     "themeBackground": "#002240",
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/dotnet/.config/Code/Backups/1618426882585",
+            "folder": "file:///home/dotnet/Dev/portfolio",
+            "backupPath": "/home/dotnet/.config/Code/Backups/d5473b38d7c375b7c7c52484ccd8f5ec",
             "uiState": {
                 "mode": 1,
-                "x": 0,
-                "y": 38,
-                "width": 1920,
-                "height": 1042
+                "x": 966,
+                "y": 48,
+                "width": 944,
+                "height": 1022
             }
         },
         "openedWindows": []
     },
-    "pickerWorkingDir": "/home/dotnet/.config/i3"
+    "pickerWorkingDir": "/home/dotnet/Dev"
 }

@@ -3,15 +3,15 @@
     <location key="WELCOME_SCREEN.0.0.1920.1080" x="1438" y="526" />
   </component>
   <component name="WindowManager">
-    <frame x="964" y="19" width="948" height="1053" />
+    <frame x="8" y="22" width="948" height="1050" />
     <layout>
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
     </layout>
   </component>
   <component name="WindowStateApplicationService">

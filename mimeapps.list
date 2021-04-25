@@ -1,7 +1,26 @@
-
 [Default Applications]
-text/html=google-chrome.desktop
-x-scheme-handler/http=google-chrome.desktop
-x-scheme-handler/https=google-chrome.desktop
+text/html=firefox-developer-edition.desktop
+x-scheme-handler/http=firefox-developer-edition.desktop
+x-scheme-handler/https=firefox-developer-edition.desktop
 x-scheme-handler/about=google-chrome.desktop
 x-scheme-handler/unknown=google-chrome.desktop
+x-scheme-handler/chrome=firefox-developer-edition.desktop
+application/x-extension-htm=firefox-developer-edition.desktop
+application/x-extension-html=firefox-developer-edition.desktop
+application/x-extension-shtml=firefox-developer-edition.desktop
+application/xhtml+xml=firefox-developer-edition.desktop
+application/x-extension-xhtml=firefox-developer-edition.desktop
+application/x-extension-xht=firefox-developer-edition.desktop
+
+[Added Associations]
+x-scheme-handler/http=firefox-developer-edition.desktop;
+x-scheme-handler/https=firefox-developer-edition.desktop;
+x-scheme-handler/chrome=firefox-developer-edition.desktop;
+text/html=firefox-developer-edition.desktop;
+application/x-extension-htm=firefox-developer-edition.desktop;
+application/x-extension-html=firefox-developer-edition.desktop;
+application/x-extension-shtml=firefox-developer-edition.desktop;
+application/xhtml+xml=firefox-developer-edition.desktop;
+application/x-extension-xhtml=firefox-developer-edition.desktop;
+application/x-extension-xht=firefox-developer-edition.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=google-chrome.desktop;firefox-developer-edition.desktop;

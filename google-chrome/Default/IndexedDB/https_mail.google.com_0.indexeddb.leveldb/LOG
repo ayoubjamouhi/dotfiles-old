@@ -1,0 +1,7 @@
+2021/04/18-05:21:28.363 199f Reusing MANIFEST /home/dotnet/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/18-05:21:28.363 199f Recovering log #3
+2021/04/18-05:21:28.363 199f Reusing old log /home/dotnet/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000003.log 
+2021/04/18-05:35:24.952 1d3e Level-0 table #5: started
+2021/04/18-05:35:24.960 1d3e Level-0 table #5: 355314 bytes OK
+2021/04/18-05:35:24.971 1d3e Delete type=0 #3
+2021/04/18-05:35:24.971 1d3e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

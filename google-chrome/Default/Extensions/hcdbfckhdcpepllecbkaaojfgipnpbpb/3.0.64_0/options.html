@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Helper Tools for Instagram.com: Options</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" rel="stylesheet"> -->
+</head>
+<style>
+  .mdi {
+    opacity: 0.6;
+  }
+
+  .mdi:hover {
+    opacity: 1;
+  }
+
+</style>
+
+<body>
+  <div id="app">
+    <h1>Options</h1>
+    <div>
+      <div style="border: 1px solid; padding: 5px;">
+        <em id="emPageSize">The higher values make the process faster. Max allowed value is %x%. The values >
+          10 could cause HTTP400 error. If you have an error, try to lower these values.</em><br />
+        <br />Page size for fetching feed AND posts in user profile:
+        <br />
+        <input type="number" min="10" id="pageSizeForFeed" />
+        <br />
+        <br />Page size for fetching users:
+        <br />
+        <input type="number" min="10" id="pageSize" />
+      </div>
+      <br />Interval between the requests to get followers/following, ms:<br />
+      <input type="number" title="Min allowed value is 1000ms/1sec" min="1000" max="30000" step="100" id="delay" />
+      <br />Interval between the requests to get the user detailed info, ms:<br />
+      <input type="number" title="Min allowed value is 200ms/0.2sec" min="200" step="100" max="10000"
+        id="detailedInfoDelay" /><br />
+    </div>
+    <div id="status" style="padding: 5px; font-weight: bold;"></div>
+    <button id="save">Save</button>
+    <button id="restoreDefaults">Restore Default Values</button>
+  </div>
+<script type="text/javascript" src="options.bundle.js"></script></body>
+
+</html>

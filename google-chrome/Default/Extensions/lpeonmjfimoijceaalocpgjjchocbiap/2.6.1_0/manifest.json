@@ -1,0 +1,27 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "index.html",
+      "default_title": "Show two captions"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "bundle.js" ],
+      "matches": [ "https://www.netflix.com/*", "https://www.youtube.com/*", "https://*.kanopy.com/*", "https://www.disneyplus.com/*" ]
+   } ],
+   "description": "Show subtitles in two languages on Youtube & Netflix",
+   "icons": {
+      "128": "icon-128.png",
+      "16": "icon.png",
+      "48": "icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAshC+6Pft5mXQJdGvUG0OzYVcX1xM2X1JetSuIBWiLsUEIy6myvdedXpnTeEEldJKH/5A9EK6S3Gxb8WjvFZIGcnkUaJ9WHuxcB2ZmvzKKhJoO3Qbp/MtklErVNeRmdp/v6t9IoHo73abiqam5+vy4Tilo41Jr/DQDZvNXs+aSlyMaLRHLgU86NS26EyRefMBnDC7c9GlxBX19WMrlrvufCUAWZLKC+aq2pYt5BjdeNHAJLPwmFdM0twDMGBWTaN8MWbWjW6C1VPeCLxjBz+geHFf5zoFH78GNfJ/BTZBtLKFmGdnF7eqQW7ixyYj+qFTYRZFrFnOVoJemnfqKAWO6wIDAQAB",
+   "manifest_version": 2,
+   "name": "Two Captions for YouTube & Netflix",
+   "permissions": [ "tabs", "http://*/*", "https://*/*", "storage", "webRequest" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.6.1"
+}

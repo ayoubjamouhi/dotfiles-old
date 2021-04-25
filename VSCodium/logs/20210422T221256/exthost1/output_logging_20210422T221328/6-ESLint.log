@@ -1,0 +1,36 @@
+[Info  - 10:13:28 PM] ESLint server is starting
+[Info  - 10:13:28 PM] ESLint server running in node v12.18.3
+[Info  - 10:13:28 PM] ESLint server is running.
+[Info  - 10:13:28 PM] ESLint library loaded from: /home/dotnet/Dev/portfolio/node_modules/eslint/lib/api.js
+[Info  - 1:59:34 AM] No ESLint configuration found in /home/dotnet/Dev/portfolio/src/components.
+[Info  - 1:59:34 AM] No ESLint configuration found in /home/dotnet/Dev/portfolio/src/styles.
+[Info  - 1:59:34 AM] No ESLint configuration found in /home/dotnet/Dev/portfolio/src/components.
+[Info  - 1:59:34 AM] No ESLint configuration found in /home/dotnet/Dev/portfolio.
+[Info  - 1:59:34 AM] No ESLint configuration found in /home/dotnet/Dev/portfolio/src/components.
+Uncaught exception received.
+Error: spawn /usr/share/vscodium-bin/codium ENOENT
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:267:19)
+    at onErrorNT (internal/child_process.js:469:16)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Uncaught exception received.
+Error: spawn /usr/share/vscodium-bin/codium ENOENT
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:267:19)
+    at onErrorNT (internal/child_process.js:469:16)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+Uncaught exception received.
+Error: spawn /usr/share/vscodium-bin/codium ENOENT
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:267:19)
+    at onErrorNT (internal/child_process.js:469:16)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+Uncaught exception received.
+Error: spawn /usr/share/vscodium-bin/codium ENOENT
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:267:19)
+    at onErrorNT (internal/child_process.js:469:16)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+[Info  - 2:14:51 AM] ESLint server stopped.

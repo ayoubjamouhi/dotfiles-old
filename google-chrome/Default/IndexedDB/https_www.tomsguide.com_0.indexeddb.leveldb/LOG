@@ -1,0 +1,5 @@
+2021/04/18-05:02:09.974 e5a Reusing MANIFEST /home/dotnet/.config/google-chrome/Default/IndexedDB/https_www.tomsguide.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/18-05:03:29.871 e5a Level-0 table #5: started
+2021/04/18-05:03:29.881 e5a Level-0 table #5: 5433 bytes OK
+2021/04/18-05:03:29.882 e5a Delete type=0 #3
+2021/04/18-05:03:29.883 e5a Manual compaction at level-0 from (begin) .. (end); will stop at (end)

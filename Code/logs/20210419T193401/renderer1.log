@@ -1,0 +1,5 @@
+[2021-04-19 19:34:03.866] [renderer1] [warning] Error querying extensions gallery {}
+[2021-04-19 19:34:04.249] [renderer1] [error] net::ERR_NAME_NOT_RESOLVED: Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:109:6508)
+    at SimpleURLLoaderWrapper.emit (events.js:315:20)
+[2021-04-19 19:34:12.925] [renderer1] [warning] UNRESPONSIVE extension host, 'Zignd.html-css-class-completion' took 95% of 1789.104ms, saved PROFILE here: 'file:///tmp/exthost-bdb930.cpuprofile' [{"id":"gc","total":91760,"percentage":5},{"id":"program","total":312,"percentage":0},{"id":"self","total":1768,"percentage":0},{"id":"vscode.git","total":1652,"percentage":0},{"id":"vscode.typescript-language-features","total":630,"percentage":0},{"id":"Zignd.html-css-class-completion","total":1692693,"percentage":95}]

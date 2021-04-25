@@ -1,0 +1,48 @@
+[2021-04-20 01:55:24.792] [exthost] [info] extension host started
+[2021-04-20 01:55:25.012] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-04-20 01:55:25.012] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-04-20 01:55:25.032] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:javascript"}
+[2021-04-20 01:55:25.032] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension
+[2021-04-20 01:55:25.054] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-04-20 01:55:25.054] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-04-20 01:55:25.058] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-04-20 01:55:25.058] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/git/dist/main
+[2021-04-20 01:55:25.079] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer-2 {"startup":true,"extensionId":{"value":"CoenraadS.bracket-pair-colorizer-2","_lower":"coenraads.bracket-pair-colorizer-2"},"activationEvent":"*"}
+[2021-04-20 01:55:25.079] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/coenraads.bracket-pair-colorizer-2-0.2.0/out/src/extension
+[2021-04-20 01:55:25.110] [exthost] [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig {"startup":true,"extensionId":{"value":"EditorConfig.EditorConfig","_lower":"editorconfig.editorconfig"},"activationEvent":"*"}
+[2021-04-20 01:55:25.110] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/editorconfig.editorconfig-0.16.4/out/editorConfigMain.js
+[2021-04-20 01:55:25.143] [exthost] [info] ExtensionService#_doActivateExtension extr0py.vscode-relative-line-numbers {"startup":true,"extensionId":{"value":"extr0py.vscode-relative-line-numbers","_lower":"extr0py.vscode-relative-line-numbers"},"activationEvent":"*"}
+[2021-04-20 01:55:25.143] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/extr0py.vscode-relative-line-numbers-0.0.5/out/src/extension
+[2021-04-20 01:55:25.145] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":true,"extensionId":{"value":"formulahendry.auto-rename-tag","_lower":"formulahendry.auto-rename-tag"},"activationEvent":"*"}
+[2021-04-20 01:55:25.146] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/formulahendry.auto-rename-tag-0.1.6/packages/extension/dist/extensionMain.js
+[2021-04-20 01:55:25.159] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"extensionId":{"value":"HookyQR.beautify","_lower":"hookyqr.beautify"},"activationEvent":"*"}
+[2021-04-20 01:55:25.160] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/hookyqr.beautify-1.5.0/extension
+[2021-04-20 01:55:25.238] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.sublime-keybindings {"startup":true,"extensionId":{"value":"ms-vscode.sublime-keybindings","_lower":"ms-vscode.sublime-keybindings"},"activationEvent":"*"}
+[2021-04-20 01:55:25.238] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/ms-vscode.sublime-keybindings-4.0.8/dist/extension.js
+[2021-04-20 01:55:25.242] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight {"startup":true,"extensionId":{"value":"naumovs.color-highlight","_lower":"naumovs.color-highlight"},"activationEvent":"*"}
+[2021-04-20 01:55:25.242] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/naumovs.color-highlight-2.3.0/dist/extension
+[2021-04-20 01:55:25.256] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"extensionId":{"value":"vscodevim.vim","_lower":"vscodevim.vim"},"activationEvent":"*"}
+[2021-04-20 01:55:25.256] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/vscodevim.vim-1.20.0/out/extension
+[2021-04-20 01:55:25.354] [exthost] [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion {"startup":true,"extensionId":{"value":"Zignd.html-css-class-completion","_lower":"zignd.html-css-class-completion"},"activationEvent":"*"}
+[2021-04-20 01:55:25.355] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/zignd.html-css-class-completion-1.20.0/dist/extension.js
+[2021-04-20 01:55:25.460] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"workspaceContains:package.json"}
+[2021-04-20 01:55:25.460] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/npm/dist/npmMain
+[2021-04-20 01:55:27.077] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-04-20 01:55:27.077] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-04-20 01:55:27.292] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":false,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-04-20 01:55:27.292] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/github/dist/extension.js
+[2021-04-20 01:55:27.445] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-04-20 01:55:27.445] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-04-20 01:55:37.668] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-04-20 01:55:37.668] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-04-20 01:55:37.680] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-04-20 01:55:37.680] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-04-20 01:55:37.683] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-04-20 01:55:37.683] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/testing-editor-contributions/dist/extension.js
+[2021-04-20 01:55:37.685] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":false,"extensionId":{"value":"dbaeumer.vscode-eslint","_lower":"dbaeumer.vscode-eslint"},"activationEvent":"onStartupFinished"}
+[2021-04-20 01:55:37.685] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/client/out/extension
+[2021-04-20 01:55:37.699] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":false,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"onStartupFinished"}
+[2021-04-20 01:55:37.699] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/esbenp.prettier-vscode-6.3.2/dist/extension
+[2021-04-20 01:55:40.303] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-04-20 01:55:40.574] [exthost] [info] eager extensions activated
+[2021-04-20 01:55:41.316] [exthost] [info] exiting with code 0

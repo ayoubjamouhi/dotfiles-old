@@ -1,0 +1,67 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "js/jquery.js", "js/noty.min.js", "js/ezusy-background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/logo.png",
+      "default_popup": "popup.html",
+      "default_title": "Import products from aliexpress to Woocommerce"
+   },
+   "content_scripts": [ {
+      "css": [ "noty.css", "ezusy.css", "style.css" ],
+      "js": [ "js/jquery.js", "js/noty.min.js", "js/ezusy.js", "js/run.js", "js/popup.js" ],
+      "matches": [ "*://*.ezusy.com/*", "*://*.myshopify.com/*", "*://*.aliexpress.com/store/product/*", "*://*.aliexpress.com/item/*", "*://*.aliexpress.com/w/*", "*://*.aliexpress.ru/store/product/*", "*://*.aliexpress.ru/item/*", "*://*.aliexpress.ru/w/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "noty.css", "ezusy.css", "style.css" ],
+      "js": [ "js/jquery.js", "js/noty.min.js", "js/ezusy.js", "js/list.js" ],
+      "matches": [ "*://*.aliexpress.com/category/*", "*://*.aliexpress.com/af/category/*", "*://*.aliexpress.com/*SearchText*", "*://*.aliexpress.com/*store*", "*://*.aliexpress.com/store/*", "*://*.aliexpress.com/w/*", "*://*.aliexpress.ru/category/*", "*://*.aliexpress.ru/af/category/*", "*://*.aliexpress.ru/*SearchText*", "*://*.aliexpress.ru/*store*", "*://*.aliexpress.ru/store/*", "*://*.aliexpress.ru/w/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "ezusy.css", "style.css" ],
+      "js": [ "js/jquery.js", "js/checkout.js", "js/checkout-new.js", "js/checkout-err.js" ],
+      "matches": [ "*://*.shoppingcart.aliexpress.com/order/*", "*://*.shoppingcart.aliexpress.com/*", "*://*.shoppingcart.aliexpress.ru/order/*", "*://*.shoppingcart.aliexpress.ru/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "ezusy.css", "style.css" ],
+      "js": [ "js/jquery.js", "js/pay.js" ],
+      "matches": [ "*://*.aliexpress.com/order/payOnlineSuccess.*", "*://*.aliexpress.ru/order/payOnlineSuccess.*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "ezusy.css", "style.css" ],
+      "js": [ "js/confirm.js" ],
+      "matches": [ "*://*.aliexpress.com/order/confirm_order.*", "*://*.aliexpress.ru/order/confirm_order.*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "ezusy.css", "style.css" ],
+      "js": [ "js/jquery.js", "js/cart-new.js" ],
+      "matches": [ "*://*.shoppingcart.aliexpress.com/shopcart/*", "*://*.shoppingcart.aliexpress.ru/shopcart/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "noty.css", "ezusy.css", "style.css" ],
+      "js": [ "js/jquery.js", "js/noty.min.js", "js/ezusy.js", "js/product.js" ],
+      "matches": [ "*://*.aliexpress.com/store/product/*", "*://*.aliexpress.com/item/*", "*://*.aliexpress.ru/store/product/*", "*://*.aliexpress.ru/item/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "ezusy.css", "style.css" ],
+      "js": [ "js/jquery.js", "js/address.js" ],
+      "matches": [ "*://*.aliexpress.com/addressList.htm*", "*://*.aliexpress.ru/addressList.htm*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "description": "Automate your Woocommerce AliExpress dropshipping business",
+   "icons": {
+      "128": "images/logo.png",
+      "16": "images/logo.png",
+      "48": "images/logo.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnKXXlBwKUtwMrdoHr0MXXesg4yCc6D1eNfGRdylki0k5nw8yT3bPuOSYaiEEv3x/4wUFKnD4+DLvu1A+6dRDCNY8/0t+WOcuP1lNeIMFwh0xGqdZ3wzZn4kCSs4qmXRATZCknYZilzdwyBfZYt/ulS9D2B8c1bdG0Xb2tphlxSZdQ+/Q+h0/oOVMBrC8o9eLzzYEAiTGtD2F60tZGyVa+KzFnO4ri8WJyFM1i8LA7o+DUeDfNFw8Txbsw1l19IeXTBdMTz1WO4sS7XTSZkPwCeOCuDyxjr2TrXByHv/PfOVlYdlUOUvId8FvbNJeGxB54hbR/Q4fYZpeO0h2D+aG3QIDAQAB",
+   "manifest_version": 2,
+   "name": "Import Aliexpress Products to Woocommerce",
+   "permissions": [ "storage", "https://*.aliexpress.com/*", "https://*.aliexpress.ru/*", "https://*.ezusy.com/*", "*://*.aliexpress.com/store/product/*", "*://*.aliexpress.com/item/*", "*://*.aliexpress.com/w/*", "*://*.aliexpress.ru/store/product/*", "*://*.aliexpress.ru/item/*", "*://*.aliexpress.ru/w/*", "*://*.aliexpress.com/category/*", "*://*.aliexpress.com/af/category/*", "*://*.aliexpress.com/*SearchText*", "*://*.aliexpress.com/*store*", "*://*.aliexpress.com/store/*", "*://*.aliexpress.ru/category/*", "*://*.aliexpress.ru/af/category/*", "*://*.aliexpress.ru/*SearchText*", "*://*.aliexpress.ru/*store*", "*://*.aliexpress.ru/store/*", "*://*.shoppingcart.aliexpress.com/order/*", "*://*.shoppingcart.aliexpress.com/*", "*://*.shoppingcart.aliexpress.ru/order/*", "*://*.shoppingcart.aliexpress.ru/*", "*://*.aliexpress.com/order/payOnlineSuccess.*", "*://*.aliexpress.ru/order/payOnlineSuccess.*", "*://*.aliexpress.com/addressList.htm*", "*://*.aliexpress.ru/addressList.htm*", "tabs" ],
+   "short_name": "Ezusy",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.6.8",
+   "web_accessible_resources": [ "run.js", "images/button.png", "images/push.svg", "images/error.svg", "images/loading.svg", "images/ship.svg", "images/close.png", "images/imported.png", "images/push.png", "images/error.png", "images/logo.png", "images/e.png", "images/done.png", "images/dashinfinity.gif" ]
+}
