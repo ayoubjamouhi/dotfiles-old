@@ -1,0 +1,336 @@
+Looking for git in: git
+Using git 2.31.1 from git
+> git rev-parse --git-dir
+Open repository: /home/dotnet/Dev/portfolio
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :frontend/src/pages/index.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/src/pages/index.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/src/pages/index.js
+> git show --textconv :frontend/src/pages/index.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/src/pages/index.js
+> git show --textconv :frontend/src/pages/index.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git add -A -- .
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --get commit.template
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/src/pages/index.js
+> git cat-file -s e29a16f3c55ceac2899f13e96d379a456a338a3f
+> git show --textconv :frontend/src/pages/index.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --oneline --cherry alispit-tel...alispit-tel@{upstream} --
+> git pull --tags origin alispit-tel
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/src/pages/index.js
+> git cat-file -s e29a16f3c55ceac2899f13e96d379a456a338a3f
+> git show --textconv :frontend/src/pages/index.js
+From github.com:ayoubjamouhi/portfolio-gatspy
+ * branch            alispit-tel -> FETCH_HEAD
+hint: Pulling without specifying how to reconcile divergent branches is
+hint: discouraged. You can squelch this message by running one of the following
+hint: commands sometime before your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+> git push origin alispit-tel:alispit-tel
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/src/pages/index.js
+> git cat-file -s e29a16f3c55ceac2899f13e96d379a456a338a3f
+> git show --textconv :frontend/src/pages/index.js
+To github.com:ayoubjamouhi/portfolio-gatspy
+   a4396ab..1831eb6  alispit-tel -> alispit-tel
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/src/pages/index.js
+> git cat-file -s e29a16f3c55ceac2899f13e96d379a456a338a3f
+> git show --textconv :frontend/src/pages/index.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/src/pages/index.js
+> git cat-file -s e29a16f3c55ceac2899f13e96d379a456a338a3f
+> git show --textconv :frontend/src/pages/index.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/src/pages/index.js
+> git cat-file -s e29a16f3c55ceac2899f13e96d379a456a338a3f
+> git show --textconv :frontend/src/pages/index.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/src/pages/index.js
+> git cat-file -s e29a16f3c55ceac2899f13e96d379a456a338a3f
+> git show --textconv :frontend/src/pages/index.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/src/pages/index.js
+> git cat-file -s e29a16f3c55ceac2899f13e96d379a456a338a3f
+> git show --textconv :frontend/src/pages/index.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/src/pages/index.js
+> git cat-file -s e29a16f3c55ceac2899f13e96d379a456a338a3f
+> git show --textconv :frontend/src/pages/index.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/src/pages/index.js
+> git cat-file -s e29a16f3c55ceac2899f13e96d379a456a338a3f
+> git show --textconv :frontend/src/pages/index.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/src/pages/index.js
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git cat-file -s e29a16f3c55ceac2899f13e96d379a456a338a3f
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :frontend/src/pages/index.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/src/pages/index.js
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git cat-file -s e29a16f3c55ceac2899f13e96d379a456a338a3f
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git show --textconv :frontend/src/pages/index.js
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/src/pages/index.js
+> git cat-file -s e29a16f3c55ceac2899f13e96d379a456a338a3f
+> git show --textconv :frontend/src/pages/index.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/src/pages/index.js
+> git cat-file -s e29a16f3c55ceac2899f13e96d379a456a338a3f
+> git show --textconv :frontend/src/pages/index.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/src/pages/index.js
+> git cat-file -s e29a16f3c55ceac2899f13e96d379a456a338a3f
+> git show --textconv :frontend/src/pages/index.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :frontend/src/components/Blog.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/src/components/Blog.js
+> git cat-file -s 614c8c9aa1712847c5ad60aeec99dba671f0ca83
+> git check-ignore -v -z --stdin
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/src/components/Blog.js
+> git cat-file -s 614c8c9aa1712847c5ad60aeec99dba671f0ca83
+> git show --textconv :frontend/src/components/Blog.js
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/src/components/Blog.js
+> git cat-file -s 614c8c9aa1712847c5ad60aeec99dba671f0ca83
+> git show --textconv :frontend/src/components/Blog.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/src/components/Blog.js
+> git cat-file -s 614c8c9aa1712847c5ad60aeec99dba671f0ca83
+> git show --textconv :frontend/src/components/Blog.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/src/components/Blog.js
+> git cat-file -s 614c8c9aa1712847c5ad60aeec99dba671f0ca83
+> git show --textconv :frontend/src/components/Blog.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/src/components/Blog.js
+> git cat-file -s 614c8c9aa1712847c5ad60aeec99dba671f0ca83
+> git show --textconv :frontend/src/components/Blog.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/src/components/Blog.js
+> git cat-file -s 614c8c9aa1712847c5ad60aeec99dba671f0ca83
+> git show --textconv :frontend/src/components/Blog.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/src/components/Blog.js
+> git cat-file -s 614c8c9aa1712847c5ad60aeec99dba671f0ca83
+> git show --textconv :frontend/src/components/Blog.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/src/components/Blog.js
+> git cat-file -s 614c8c9aa1712847c5ad60aeec99dba671f0ca83
+> git show --textconv :frontend/src/components/Blog.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/src/components/Blog.js
+> git cat-file -s 614c8c9aa1712847c5ad60aeec99dba671f0ca83
+> git show --textconv :frontend/src/components/Blog.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :frontend/src/components/seo.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/src/components/seo.js
+> git cat-file -s c735177208598661003c11a65915064dc92363de
+> git show --textconv :frontend/gatsby-config.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/gatsby-config.js
+> git cat-file -s a5cb8f9357dc0178b8d296418d1d704c953683b5
+> git show --textconv :frontend/src/components/seo.js
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/src/components/seo.js
+> git cat-file -s c735177208598661003c11a65915064dc92363de
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

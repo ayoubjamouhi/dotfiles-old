@@ -3,7 +3,19 @@
     "openedPathsList": {
         "entries": [
             {
+                "folderUri": "file:///home/dotnet/Dev/portfolio/frontend"
+            },
+            {
+                "folderUri": "file:///home/dotnet/Documents/itermcolors2terminator"
+            },
+            {
+                "folderUri": "file:///home/dotnet/Dev/portfolio/sanity"
+            },
+            {
                 "folderUri": "file:///home/dotnet/Dev/portfolio"
+            },
+            {
+                "fileUri": "file:///home/dotnet/Documents/itermcolors2terminator/cobalt2.itermcolors"
             },
             {
                 "fileUri": "file:///home/dotnet/Dev/portfolio/src/pages/index.js"
@@ -60,7 +72,40 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/dotnet/Dev/portfolio",
+                                        "fsPath": "/home/dotnet/Dev/portfolio/frontend",
+                                        "external": "file:///home/dotnet/Dev/portfolio/frontend",
+                                        "path": "/home/dotnet/Dev/portfolio/frontend",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Dev/portfolio/frontend"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dotnet/Documents/itermcolors2terminator",
+                                        "path": "/home/dotnet/Documents/itermcolors2terminator",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/itermcolors2terminator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dotnet/Dev/portfolio/sanity",
+                                        "path": "/home/dotnet/Dev/portfolio/sanity",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Dev/portfolio/sanity"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/dotnet/Dev/portfolio",
                                         "path": "/home/dotnet/Dev/portfolio",
                                         "scheme": "file"
@@ -70,6 +115,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/dotnet/Documents/itermcolors2terminator/cobalt2.itermcolors",
+                                        "path": "/home/dotnet/Documents/itermcolors2terminator/cobalt2.itermcolors",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/itermcolors2terminator/cobalt2.itermcolors"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -621,7 +677,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1477,8 +1534,8 @@
     "themeBackground": "#002240",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/dotnet/Dev/portfolio",
-            "backupPath": "/home/dotnet/.config/VSCodium/Backups/d5473b38d7c375b7c7c52484ccd8f5ec",
+            "folder": "file:///home/dotnet/Dev/portfolio/frontend",
+            "backupPath": "/home/dotnet/.config/VSCodium/Backups/fa7f24990fc65efd11cc7ffa32e9f8a1",
             "uiState": {
                 "mode": 1,
                 "x": 0,
@@ -1489,5 +1546,5 @@
         },
         "openedWindows": []
     },
-    "pickerWorkingDir": "/home/dotnet/Dev/portfolio/src/pages"
+    "pickerWorkingDir": "/home/dotnet/Documents"
 }

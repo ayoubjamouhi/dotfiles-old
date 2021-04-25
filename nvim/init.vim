@@ -19,6 +19,8 @@ let g:EasyMotion_startofline = 0 " keep cursor column when JK motion
 
 
 inoremap jj <ESC>
+
+set relativenumber
 " Get a preview of replacements
 set inccommand=split
  
@@ -135,3 +137,10 @@ set termguicolors " this variable must be enabled for colors to be applied prope
 
 " a list of groups can be found at `:help nvim_tree_highlight`
 highlight NvimTreeFolderIcon guibg=blue
+ 
+command! -nargs=0 CAR call TermWrapper(printf('g++ -std=c++11 %s && ./a.out', expand('%')))
+
+command! -nargs=1 CompileAndRunWithFile call TermWrapper(printf('g++ -std=c++17 %s && ./a.out < %s', expand('%'), <args>))
+
+autocmd FileType cpp nnoremap <Buffer><F5>fw CAR<CR>
+

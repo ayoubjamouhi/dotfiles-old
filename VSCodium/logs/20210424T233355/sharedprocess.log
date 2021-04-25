@@ -1,0 +1,13 @@
+[2021-04-24 23:33:58.494] [sharedprocess] [info] Installing extension: jpoissonnier.vscode-styled-components
+[2021-04-24 23:33:58.496] [sharedprocess] [info] Installing extension: ms-vscode.sublime-keybindings
+[2021-04-24 23:33:59.957] [sharedprocess] [info] Downloaded extension: ms-vscode.sublime-keybindings undefined
+[2021-04-24 23:34:00.080] [sharedprocess] [info] Extracted extension to /home/dotnet/.vscode-oss/extensions/.42e731d9-23e4-42dd-9066-570d9eb565ed: ms-vscode.sublime-keybindings
+[2021-04-24 23:34:00.088] [sharedprocess] [info] Renamed to /home/dotnet/.vscode-oss/extensions/ms-vscode.sublime-keybindings-4.0.9
+[2021-04-24 23:34:00.091] [sharedprocess] [info] Installation completed. ms-vscode.sublime-keybindings
+[2021-04-24 23:34:00.097] [sharedprocess] [info] Extensions installed successfully: ms-vscode.sublime-keybindings
+[2021-04-24 23:34:00.593] [sharedprocess] [info] Downloaded extension: jpoissonnier.vscode-styled-components undefined
+[2021-04-24 23:34:02.312] [sharedprocess] [info] Extracted extension to /home/dotnet/.vscode-oss/extensions/.3f365654-ff86-4990-b610-0832723652e4: jpoissonnier.vscode-styled-components
+[2021-04-24 23:34:02.319] [sharedprocess] [info] Renamed to /home/dotnet/.vscode-oss/extensions/jpoissonnier.vscode-styled-components-1.5.1
+[2021-04-24 23:34:02.320] [sharedprocess] [info] Installation completed. jpoissonnier.vscode-styled-components
+[2021-04-24 23:34:02.326] [sharedprocess] [info] Extensions installed successfully: jpoissonnier.vscode-styled-components
+[2021-04-24 23:34:36.747] [sharedprocess] [info] Starting to clean up unused language packs.

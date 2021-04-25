@@ -69,5 +69,6 @@
   },
   "vscode-neovim.neovimInitVimPaths.linux": "$HOME/.config/nvim/init.vim",
   "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+  "editor.lineNumbers": "relative",
   // Optional BUT IMPORTANT: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
 }
