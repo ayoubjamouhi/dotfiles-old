@@ -33,3 +33,24 @@ and the repository exists.
 > git remote --verbose
 > git show --textconv :frontend/src/components/Blog.tsx
 > git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git ls-files --stage -- /home/dotnet/Dev/portfolio/frontend/src/components/Blog.tsx
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/alispit-tel refs/remotes/alispit-tel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git show --textconv :frontend/src/components/Blog.tsx
+> git config --get commit.template
